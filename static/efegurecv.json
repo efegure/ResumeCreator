@@ -1,7 +1,7 @@
 {
   "header":{
     "name":"Efe Güre",
-    "jobTitle":"Frontend Team Lead",
+    "jobTitle":"Team Lead",
     "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
     "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png",
     "gitLink":"https://github.com/efegure"
@@ -16,32 +16,117 @@
     "phoneIcon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPRG4Jx5uDk3986TOuHwKIiLLcKX4Ut_hUA&usqp=CAU",
     "emailIcon":"https://www.icmimarlikdergisi.com/wp-content/uploads/2017/07/email-icon-23.png"
   },
-  "skills":{
-    "sections":[
-      {
-        "title":"Technology",
-        "skills":[
-          "Vue",
-          "Javascript/ES6",
-          "HTML/CSS"
-        ]
-      },
-      {
-
-      }
-    ]
-  },
+  "skills":[
+    {
+      "sections":[
+        {
+          "title":"Education",
+          "skills":[
+           "Izmir Atatürk HighSchool - 2017/2012",
+           "Izmir Institue of Technology - Computer Engineering - 2012/2017"
+          ]
+        }
+      ]
+    },
+    {
+      "sections":[
+        {
+          "title":"Technologies",
+          "skills":[
+            "Vue",
+            "AngularJS / Angular",
+            "HTML / CSS / SCSS",
+            "Vuex / Vue-router / vue-cli",
+            "Webpack / Jenkins / ESlint",
+            "Github / npm",
+            "Jira / Figma",
+            "Nativescript"
+          ]
+        },
+        {
+          "title":"Programming Languages",
+          "skills":[
+            "Javascript / Typescript"
+          ]
+        }
+      ]
+    },
+    {
+      "sections":[
+        {
+          "title":"Soft Skills",
+          "skills":[
+            "Problem Solving",
+            "Teamwork",
+            "Self Management"
+          ]
+        },
+        {
+          "title":"Traits",
+          "skills":[
+            "Result focused",
+            "Detail oriented",
+            "Perfectionist",
+            "Humility"
+          ]
+        }
+      ]
+    },
+    {
+      "sections":[
+        {
+          "title":"Languages",
+          "skills":[
+            "English - Native",
+            "French - Limited",
+            "Turkish - Native"
+          ]
+        }
+      ]
+    }
+  ],
   "experiences":[
     {
-      "title":"Frontend Team Lead",
+      "title":"Dashboard Configurator",
       "company":"Ezlo Innovation",
       "location":"Turkey / Remote",
-      "job":"Team Lead",
-      "date":"12/07/2019 - Now",
-      "body":"Working as a front-end developer and team-lead with international teams from Ukraine and Romania, creating cross-platfom solutions for web, Android and iOS using Vue.js and Nativescript. ",
+      "job":"Dashboard Team Lead",
+      "date":"June 2019 - Present",
+      "body":"Created an application which users can create their own ui templates called 'tiles' and create pages called 'dashboards' by binding the data of their home-automation devices to the created 'tiles'. This is achieved by recursively creating html-like json files and creating the ui elements form these tiles dynamically. I was responsible for everything development-related such as architecture, performace improvements, optimization, development, build creation and maintanence. Worked with multiple teams from Ukraine, Romania, Turkey and USA. Technologies used are: Vue, Javascript, HTML/CSS, SCSS, Vuex, webpack, ESlint, Git ",
       "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
       "companyLogo":"https://media-exp1.licdn.com/dms/image/C560BAQG82jHBSQXydw/company-logo_100_100/0/1648555164545?e=1671062400&v=beta&t=5K8wRktz3eu6_NtPHnjOXu1S2oIfw1i_6dwDUygEwIE"
 
+    },
+    {
+      "title":"NuMessage - Vuexp",
+      "company":"Nurd Innovation",
+      "location":"Turkey / Izmir",
+      "job":"Frontend Developer",
+      "date":"Oct 2018 - June 2019",
+      "body":"Worked on a 'Skype' like cross-platform and web messaging project and cross-platform libraries. My responsibilites include developing new components, writing documentation and unit tests. Technologies used are: Nativescript-Vue, Vue, Javascript, HTML/CSS, SCSS.",
+      "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
+      "companyLogo":"https://media-exp1.licdn.com/dms/image/C4D0BAQFD2wZHp3tuXA/company-logo_100_100/0/1544450567150?e=1671062400&v=beta&t=UtPRaz4HhDTQESWBeCqG-hroj7WU_hVMxJCy5HIGirI"
+
+    },
+    {
+      "title":"E-commerce platform",
+      "company":"Univera",
+      "location":"Turkey / Izmir",
+      "job":"Frontend Developer(Outsource)",
+      "date":"Jun 2017 - Mar 2018",
+      "body":"Worked on an e-commerce application which i wrote several plugins using google analytics. My responsibilites include developing and documentation of plugins. Technologies used are: NopCommerce, C#, .net, Javascript, Google Analytics ",
+      "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
+      "companyLogo":"https://media-exp1.licdn.com/dms/image/C560BAQHn1fjBBA-XpQ/company-logo_100_100/0/1519894988605?e=1671062400&v=beta&t=LNP2yOfKIQQlDCfvB8sOMgdh0z9627uhVevhN7XRXWQ"
+    },
+    {
+      "title":"Pincident",
+      "company":"Delta Smart Technologies(startup)",
+      "location":"Turkey / Urla",
+      "job":"Junior Frontend Developer",
+      "date":"Jan 2017 - Jun 2017 / Mar 2018 - Jun 2018",
+      "body":"Created a web based admin panel for an incident management application which city halls receive incident reports from citizens in the selected areas using google map apis in the panel. I was the only person responsible for the web panel. Worked in a small team of developers which consists me as the web developer, one backend and one crossplatform developer. Technologies used are: Angular, Typescript, rxjs, HTML/CSS",
+      "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
+      "companyLogo":"https://media-exp1.licdn.com/dms/image/C560BAQEqbnVU1_FC9w/company-logo_100_100/0/1519861777424?e=1671062400&v=beta&t=hcFphkDOsvFKI8Dqjy63fsGsf-EKQondlQy_lAtMfRI"
     }
   ]
 

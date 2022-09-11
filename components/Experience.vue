@@ -5,7 +5,7 @@
       <img class="h-14 rounded-full "
         :src="companyLogo" />
       <div class="grow align-middle self-center rounded-full text-slate-400  flex-1  pl-4 ">
-        <p class="font-semibold text-lg">
+        <p class="font-semibold text-lg text-black">
           {{title}}
         </p>
         <div class="flex flex-row text-xs">
