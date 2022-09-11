@@ -3,7 +3,7 @@
   <div >
     <div class="w-full h-full min-h-screen sm:px-6 lg:px-8 bg-gray-100">
       <div class="grid grid-cols-3">
-        <p class="self-center text-blue-500 text-2xl"> cVizard</p>
+        <p class="self-center text-blue-500 text-3xl font-bold"> cVizard</p>
         <div></div>
         <button class="justify-self-end rounded-full mb-4 mt-4 bg-blue-400 p-2 px-4 text-white" @click="createPdf" >Create pdf</button>
       </div>
