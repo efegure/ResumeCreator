@@ -1,4 +1,4 @@
-# cWhizz
+# cVizard
 
 ## Build Setup
 
