@@ -1,0 +1,49 @@
+{
+  "header":{
+    "name":"Efe Güre",
+    "jobTitle":"Frontend Team Lead",
+    "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
+    "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png",
+    "gitLink":"https://github.com/efegure"
+  },
+  "contact":{
+    "name":"Efe Güre",
+    "city":"Istanbul, Turkey",
+    "phone":"+905392757576",
+    "email":"efegure@gmail.com",
+    "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
+    "cityIcon":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Map_pin_icon.svg/752px-Map_pin_icon.svg.png",
+    "phoneIcon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPRG4Jx5uDk3986TOuHwKIiLLcKX4Ut_hUA&usqp=CAU",
+    "emailIcon":"https://www.icmimarlikdergisi.com/wp-content/uploads/2017/07/email-icon-23.png"
+  },
+  "skills":{
+    "sections":[
+      {
+        "title":"Technology",
+        "skills":[
+          "Vue",
+          "Javascript/ES6",
+          "HTML/CSS"
+        ]
+      },
+      {
+
+      }
+    ]
+  },
+  "experiences":[
+    {
+      "title":"Frontend Team Lead",
+      "company":"Ezlo Innovation",
+      "location":"Turkey / Remote",
+      "job":"Team Lead",
+      "date":"12/07/2019 - Now",
+      "body":"Working as a front-end developer and team-lead with international teams from Ukraine and Romania, creating cross-platfom solutions for web, Android and iOS using Vue.js and Nativescript. ",
+      "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
+      "companyLogo":"https://media-exp1.licdn.com/dms/image/C560BAQG82jHBSQXydw/company-logo_100_100/0/1648555164545?e=1671062400&v=beta&t=5K8wRktz3eu6_NtPHnjOXu1S2oIfw1i_6dwDUygEwIE"
+
+    }
+  ]
+
+
+}
