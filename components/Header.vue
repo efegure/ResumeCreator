@@ -30,7 +30,9 @@
             <img class="h-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" />
           </a>
       </div>
-
+      <div class="flex justify-center items-center">
+        <span class="text-xs text-gray-400">Pdf created by me using <a class="text-blue-300" href="https://github.com/efegure/cVizard" >cv-creator</a></span>
+      </div>
       </div>
     </div>
   </div>
