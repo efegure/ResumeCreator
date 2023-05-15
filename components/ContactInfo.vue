@@ -11,21 +11,21 @@
     <!-- ICONS-->
     <div class="grid grid-cols-3 pt-4">
       <div class="flex flex-row  ">
-        <img class="h-9 rounded-full mr-2 self-center"
+        <img class="h-7 rounded-full mr-2 self-center"
           :src="cityIcon" />
         <p class="text-sm grow align-middle self-center">
           {{city}}
         </p>
       </div>
       <div class="flex flex-row ">
-        <img class="h-9 rounded-full mr-2 self-center"
+        <img class="h-7 rounded-full mr-2 self-center"
           :src="phoneIcon" />
         <p class="text-sm grow align-middle self-center">
           {{phone}}
         </p>
       </div>
       <div class="flex flex-row">
-        <img class="h-9 rounded-full mr-2 self-center"
+        <img class="h-7 rounded-full mr-2 self-center"
           :src="emailIcon" />
         <p class="text-sm grow align-middle self-center">
           {{email}}
