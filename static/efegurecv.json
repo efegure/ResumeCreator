@@ -2,7 +2,7 @@
   "header":{
     "name":"Efe Güre",
     "jobTitle":"Team Lead",
-    "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
+    "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
     "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png",
     "gitLink":"https://github.com/efegure"
   },
@@ -11,7 +11,7 @@
     "city":"Istanbul, Turkey",
     "phone":"+905392757576",
     "email":"efegure@gmail.com",
-    "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
+    "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
     "cityIcon":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Map_pin_icon.svg/752px-Map_pin_icon.svg.png",
     "phoneIcon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPRG4Jx5uDk3986TOuHwKIiLLcKX4Ut_hUA&usqp=CAU",
     "emailIcon":"https://www.icmimarlikdergisi.com/wp-content/uploads/2017/07/email-icon-23.png"
@@ -20,21 +20,14 @@
     {
       "sections":[
         {
-          "title":"Education",
-          "skills":[
-           "Izmir Atatürk HighSchool - 2017/2012",
-           "Izmir Institue of Technology - Computer Engineering - 2012/2017"
-          ]
-        }
-      ]
-    },
-    {
-      "sections":[
-        {
           "title":"Technologies",
           "skills":[
             "Vue",
+            "React",
             "AngularJS / Angular",
+            "Javascript / Typescript",
+            "Tailwind",
+            "Bootstrap",
             "HTML / CSS / SCSS",
             "Vuex / Vue-router / vue-cli",
             "Webpack / Jenkins / ESlint",
@@ -42,11 +35,28 @@
             "Jira / Figma",
             "Nativescript"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "sections":[
         {
-          "title":"Programming Languages",
+          "title":"Languages",
           "skills":[
-            "Javascript / Typescript"
+            "English - Native",
+            "French - Limited",
+            "Turkish - Native"
+          ]
+        }
+      ]
+    },
+    {
+      "sections":[
+        {
+          "title":"Education",
+          "skills":[
+           "Izmir Atatürk Highschool - 2017/2012",
+           "Izmir Institue of Technology - Computer Engineering - 2012/2017"
           ]
         }
       ]
@@ -66,20 +76,7 @@
           "skills":[
             "Result focused",
             "Detail oriented",
-            "Perfectionist",
-            "Humility"
-          ]
-        }
-      ]
-    },
-    {
-      "sections":[
-        {
-          "title":"Languages",
-          "skills":[
-            "English - Native",
-            "French - Limited",
-            "Turkish - Native"
+            "Perfectionist"
           ]
         }
       ]
@@ -87,14 +84,25 @@
   ],
   "experiences":[
     {
+      "title":"Ginoa.io",
+      "company":"Ginoa",
+      "location":"Turkey / Remote",
+      "job":"Frontend Developer",
+      "date":"November 2022 - Present",
+      "body":"Contract work for a web3 application that i did on my free-time about NFT bartering and trading. Responsible for creating responsive ui elements and data binding from APIs. Technologies: React, Typescript, Tailwind, React-query, Recharts, Headless-ui, Vite",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
+      "companyLogo":"https://media.licdn.com/dms/image/D4D0BAQHnsDGOXJBYEg/company-logo_200_200/0/1665757942417?e=1681948800&v=beta&t=ZbRkCuTnUtdZgqAr7-qzSSzqDYS8mrmSBrROVl2XlVc"
+
+    },
+    {
       "title":"Dashboard Configurator",
       "company":"Ezlo Innovation",
       "location":"Turkey / Remote",
       "job":"Dashboard Team Lead",
       "date":"June 2019 - Present",
-      "body":"Created an application which users can create their own ui templates called 'tiles' and create pages called 'dashboards' by binding the data of their home-automation devices to the created 'tiles'. This is achieved by recursively creating html-like json files and creating the ui elements form these tiles dynamically. I was responsible for everything development-related such as architecture, performace improvements, optimization, development, build creation and maintanence. Worked with multiple teams from Ukraine, Romania, Turkey and USA. Technologies used are: Vue, Javascript, HTML/CSS, SCSS, Vuex, webpack, ESlint, Git ",
-      "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
-      "companyLogo":"https://media-exp1.licdn.com/dms/image/C560BAQG82jHBSQXydw/company-logo_100_100/0/1648555164545?e=1671062400&v=beta&t=5K8wRktz3eu6_NtPHnjOXu1S2oIfw1i_6dwDUygEwIE"
+      "body":"Created a web application which users can create their own ui templates called 'tiles' and create pages called 'dashboards' by binding the data of their home-automation devices. My responsiblities as a team lead / developer includes creating app architecture, optimization, development, maintanence, sprint planning and estimations. Worked with multiple teams from Ukraine, Romania, Turkey and USA. Technologies: Vue, Javascript, HTML/CSS, SCSS, Vuex, webpack, ESlint, Git ",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
+      "companyLogo":"https://media.licdn.com/dms/image/C560BAQG82jHBSQXydw/company-logo_100_100/0/1648555164545?e=1681948800&v=beta&t=ptZ6YGGVaJYD3UhK3s7mW95uLMlNGC68mf6ToXMS3Qg"
 
     },
     {
@@ -103,9 +111,9 @@
       "location":"Turkey / Izmir",
       "job":"Frontend Developer",
       "date":"Oct 2018 - June 2019",
-      "body":"Worked on a 'Skype' like cross-platform and web messaging project and cross-platform libraries. My responsibilites include developing new components, writing documentation and unit tests. Technologies used are: Nativescript-Vue, Vue, Javascript, HTML/CSS, SCSS.",
-      "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
-      "companyLogo":"https://media-exp1.licdn.com/dms/image/C4D0BAQFD2wZHp3tuXA/company-logo_100_100/0/1544450567150?e=1671062400&v=beta&t=UtPRaz4HhDTQESWBeCqG-hroj7WU_hVMxJCy5HIGirI"
+      "body":"Worked on a 'Skype' like cross-platform and web messaging project. My responsibilites include developing new components, writing documentation and unit tests. Technologies: Nativescript-Vue, Vue, Javascript, HTML/CSS, SCSS.",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
+      "companyLogo":"https://media.licdn.com/dms/image/C4D0BAQFD2wZHp3tuXA/company-logo_100_100/0/1544450567150?e=1681948800&v=beta&t=jDhKQsj-dRrw__1lnM9BxP8nkkrcSAuMcaPwEgRDYt8"
 
     },
     {
@@ -114,9 +122,9 @@
       "location":"Turkey / Izmir",
       "job":"Frontend Developer(Outsource)",
       "date":"Jun 2017 - Mar 2018",
-      "body":"Worked on an e-commerce application which i wrote several plugins using google analytics. My responsibilites include developing and documentation of plugins. Technologies used are: NopCommerce, C#, .net, Javascript, Google Analytics ",
-      "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
-      "companyLogo":"https://media-exp1.licdn.com/dms/image/C560BAQHn1fjBBA-XpQ/company-logo_100_100/0/1519894988605?e=1671062400&v=beta&t=LNP2yOfKIQQlDCfvB8sOMgdh0z9627uhVevhN7XRXWQ"
+      "body":"Worked on an e-commerce application which i wrote several plugins using google analytics. My responsibilites include developing and documentation of plugins. Technologies: NopCommerce, C#, .net, Javascript, Google Analytics ",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
+      "companyLogo":"https://media.licdn.com/dms/image/C560BAQHn1fjBBA-XpQ/company-logo_100_100/0/1519894988605?e=1681948800&v=beta&t=zWVV_Ic3Z_yxgcPPErClVTMscaVpl9_tdOJA2llJ3pQ"
     },
     {
       "title":"Pincident",
@@ -124,9 +132,9 @@
       "location":"Turkey / Urla",
       "job":"Junior Frontend Developer",
       "date":"Jan 2017 - Jun 2017 / Mar 2018 - Jun 2018",
-      "body":"Created a web based admin panel for an incident management application which city halls receive incident reports from citizens in the selected areas using google map apis in the panel. I was the only person responsible for the web panel. Worked in a small team of developers which consists me as the web developer, one backend and one crossplatform developer. Technologies used are: Angular, Typescript, rxjs, HTML/CSS",
-      "profileImg":"https://media-exp1.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_800_800/0/1649948488239?e=1668038400&v=beta&t=q0yKs8aynuqYp9IBeyZoGVI4ROWnqzURK4wJ-pVWcz4",
-      "companyLogo":"https://media-exp1.licdn.com/dms/image/C560BAQEqbnVU1_FC9w/company-logo_100_100/0/1519861777424?e=1671062400&v=beta&t=hcFphkDOsvFKI8Dqjy63fsGsf-EKQondlQy_lAtMfRI"
+      "body":"Created a web based admin panel for an incident management application which city halls receive incident reports from citizens in the selected areas using google map apis in the panel. I was the only person responsible for the web panel. Worked in a small team of developers which consists me as the web developer, one backend and one crossplatform developer. Technologies: Angular, Typescript, rxjs, HTML/CSS",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
+      "companyLogo":"https://media.licdn.com/dms/image/C560BAQEqbnVU1_FC9w/company-logo_100_100/0/1519861777424?e=1681948800&v=beta&t=LE-vxftWfk1ha0Yn3LgNFR3oVhLkRzXGFflX0ealXok"
     }
   ]
 
