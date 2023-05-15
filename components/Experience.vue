@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-white rounded-xl p-3 px-6 shadow mt-3">
+  <div class="bg-white rounded-xl py-2 px-6 shadow mt-3">
     <!-- NAME -->
     <div class="flex flex-row border-b">
       <img class="h-14 rounded-full "
         :src="companyLogo" />
       <div class="grow align-middle self-center rounded-full text-slate-400  flex-1  pl-4 ">
-        <p class="font-semibold text-lg text-black">
+        <p class="font-semibold text-base text-black">
           {{title}}
         </p>
         <div class="flex flex-row text-xs">
@@ -21,10 +21,13 @@
 
     </div>
     <!-- ICONS-->
-    <div class="pt-3 pb-1 border-b">
-      <p class="text-sm">
-        {{body}}
-      </p>
+    <div class="pt-2 pb-1 border-b">
+      <div class="flex flex-row" v-for="text in body">
+        <p class="text-xs">
+        {{text}}
+        </p>
+      </div>
+
     </div>
     <div class="grid grid-cols-3 pt-2 pb-1 border-b">
       <div class="flex flex-row  ">
