@@ -2,7 +2,7 @@
   "header":{
     "name":"Efe Güre",
     "jobTitle":"Team Lead",
-    "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
+    "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_400_400/0/1649948488239?e=1689811200&v=beta&t=XrA5cSnApJFMiLOQ5Z8EqmsH8vElpUP1Z8wqHQtSVek",
     "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png",
     "gitLink":"https://github.com/efegure"
   },
@@ -11,7 +11,7 @@
     "city":"Istanbul, Turkey",
     "phone":"+905392757576",
     "email":"efegure@gmail.com",
-    "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
+    "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_400_400/0/1649948488239?e=1689811200&v=beta&t=XrA5cSnApJFMiLOQ5Z8EqmsH8vElpUP1Z8wqHQtSVek",
     "cityIcon":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Map_pin_icon.svg/752px-Map_pin_icon.svg.png",
     "phoneIcon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPRG4Jx5uDk3986TOuHwKIiLLcKX4Ut_hUA&usqp=CAU",
     "emailIcon":"https://www.icmimarlikdergisi.com/wp-content/uploads/2017/07/email-icon-23.png"
@@ -68,8 +68,8 @@
         {
           "title":"Education",
           "skills":[
-           "* Izmir Atatürk HighSchool","2017/2012",
-           "* Izmir Institue of Technology", "Computer Engineering","2012/2017"
+           "* Izmir Atatürk HighSchool","2017-2012",
+           "* Izmir Institue of Technology", "Computer Engineering","2012-2017"
           ]
         }
       ]
@@ -82,8 +82,8 @@
       "location":"Turkey / Remote",
       "job":"Dashboard Team Lead",
       "date":"June 2019 - Present",
-      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
-      "companyLogo":"https://media.licdn.com/dms/image/C560BAQG82jHBSQXydw/company-logo_100_100/0/1648555164545?e=1681948800&v=beta&t=ptZ6YGGVaJYD3UhK3s7mW95uLMlNGC68mf6ToXMS3Qg",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_400_400/0/1649948488239?e=1689811200&v=beta&t=XrA5cSnApJFMiLOQ5Z8EqmsH8vElpUP1Z8wqHQtSVek",
+      "companyLogo":"https://media.licdn.com/dms/image/C560BAQHFrQ3a9EJV6g/company-logo_100_100/0/1679673202279?e=1692230400&v=beta&t=eoLUGlfcgnrswDuIr5KolBSjiwN2ls7IcitTGZ5XMAA",
       "body":["Created an application which users can create their own ui templates called 'tiles' and create pages called 'dashboards' by binding the data of their home-automation devices to 'tiles' and interact with them on 'dashbboards'. I worked on almost all aspects of this project including development, sprint planning and estimation, code review and build management.","Some of my achievements are:"," ","- Provided a flexible solution for storing/displaying ui's created by end user.","- Created a designer view for data binding to ui elements", "- Reduced app bundle size by %75" , "- Improved app load times by 60%, decreased memory usage by 40% ","Tech stack: Vue, Javascript, HTML/CSS, SCSS, Vuex, webpack, ESlint, Git "]
     },
     {
@@ -93,9 +93,8 @@
       "job":"Frontend Developer",
       "date":"November 2022 - April 2022",
       "body":["Contract work for a web3 application that i did on my free-time about NFT bartering and trading.","Things I worked on:","- Deciding tech stack, general app layout","- Creating responsive ui elements and data binding from APIs.","- Added virtualizaton for rendering a lot NFTs with great performance and paging/loading capabilities "," Tech stack: React, Typescript, Tailwind, React-query, Recharts, Headless-ui, Vite"],
-      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
-      "companyLogo":"https://media.licdn.com/dms/image/D4D0BAQHnsDGOXJBYEg/company-logo_200_200/0/1665757942417?e=1681948800&v=beta&t=ZbRkCuTnUtdZgqAr7-qzSSzqDYS8mrmSBrROVl2XlVc"
-
+      "companyLogo":"https://media.licdn.com/dms/image/D4D0BAQGc_Evmq4qUSw/company-logo_200_200/0/1681641519830?e=1692230400&v=beta&t=IkQOyp5OWQ4MCEC8hKLKsjLbLnv2XwdJ-c_7t-1Z9qE",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_400_400/0/1649948488239?e=1689811200&v=beta&t=XrA5cSnApJFMiLOQ5Z8EqmsH8vElpUP1Z8wqHQtSVek"
     },
     {
       "title":"NuMessage - Vuexp",
@@ -103,8 +102,8 @@
       "location":"Turkey / Izmir",
       "job":"Frontend Developer",
       "date":"Oct 2018 - June 2019",
-      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
-      "companyLogo":"https://media.licdn.com/dms/image/C4D0BAQFD2wZHp3tuXA/company-logo_100_100/0/1544450567150?e=1681948800&v=beta&t=jDhKQsj-dRrw__1lnM9BxP8nkkrcSAuMcaPwEgRDYt8",
+      "companyLogo":"https://media.licdn.com/dms/image/C4D0BAQFD2wZHp3tuXA/company-logo_100_100/0/1544450567150?e=1692230400&v=beta&t=Ksf7o4_V38KO-vEE0J6g5CbW2RjEWu0TF-m8-hi7t6I",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_400_400/0/1649948488239?e=1689811200&v=beta&t=XrA5cSnApJFMiLOQ5Z8EqmsH8vElpUP1Z8wqHQtSVek",
       "body":["Worked on a 'Skype' like cross-platform and web messaging project and cross-platform libraries.", "-Developing new components", "-Writing documentation and unit tests", "Tech stack: Nativescript-Vue, Vue, Javascript, HTML/CSS, SCSS."]
 
     },
@@ -114,8 +113,8 @@
       "location":"Turkey / Izmir",
       "job":"Frontend Developer(Outsource)",
       "date":"Jun 2017 - Mar 2018",
-      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
-      "companyLogo":"https://media.licdn.com/dms/image/C560BAQHn1fjBBA-XpQ/company-logo_100_100/0/1519894988605?e=1681948800&v=beta&t=zWVV_Ic3Z_yxgcPPErClVTMscaVpl9_tdOJA2llJ3pQ",
+      "companyLogo":"https://media.licdn.com/dms/image/C4D0BAQHkLqJMqNPXnw/company-logo_100_100/0/1680174786190?e=1692230400&v=beta&t=dnW7zNxorIBCKQtEvBYABeJr-PNIPLOML511sMy4g2A",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_400_400/0/1649948488239?e=1689811200&v=beta&t=XrA5cSnApJFMiLOQ5Z8EqmsH8vElpUP1Z8wqHQtSVek",
       "body":["Worked on an e-commerce application which i wrote several plugins using google analytics. My responsibilites include developing and documentation of plugins.","Tech stack: NopCommerce, C#, .net, Javascript, Google Analytics "]
     },
     {
@@ -124,8 +123,8 @@
       "location":"Turkey / Urla",
       "job":"Junior Frontend Developer",
       "date":"Jan 2017 - Jun 2017 / Mar 2018 - Jun 2018",
-      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_200_200/0/1649948488239?e=1679529600&v=beta&t=MY_bhNIxSTBoUewTF-MiHbExLZ-tTAz5pHXFRhhcX70",
-      "companyLogo":"https://media.licdn.com/dms/image/C560BAQEqbnVU1_FC9w/company-logo_100_100/0/1519861777424?e=1681948800&v=beta&t=LE-vxftWfk1ha0Yn3LgNFR3oVhLkRzXGFflX0ealXok",
+      "profileImg":"https://media.licdn.com/dms/image/C4E03AQG8f6C2uuvvwQ/profile-displayphoto-shrink_400_400/0/1649948488239?e=1689811200&v=beta&t=XrA5cSnApJFMiLOQ5Z8EqmsH8vElpUP1Z8wqHQtSVek",
+      "companyLogo":"https://media.licdn.com/dms/image/C560BAQEqbnVU1_FC9w/company-logo_100_100/0/1519861777424?e=1692230400&v=beta&t=scqh4zzkbQXku5dRY8VRjNU84AzgpeNFKSlAqFdaEZ8",
       "body":["Created a web based admin panel for an incident management application which city halls receive incident reports from citizens in the selected areas using google map apis in the panel. I was the only person responsible for the web panel. Worked in a small team of developers which consists me as the web developer, one backend and one crossplatform developer.", "Tech stack: Angular, Typescript, rxjs, HTML/CSS"]
     }
   ]
