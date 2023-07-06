@@ -1,4 +1,4 @@
-# cVizard
+# ResumeCreator
 
 ## Build Setup
 
