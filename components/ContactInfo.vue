@@ -3,12 +3,12 @@
     <!-- NAME -->
     <div class="flex flex-row  pb-1">
       <img class="h-14 rounded-full mr-2 " :src="require(`~/assets/images/${profileImg}`)" />
-      <p class="grow align-middle self-center rounded-full text-slate-400 bg-gray-100 flex-1 p-2 pl-4 ">
+      <p class="grow align-middle self-center rounded-full text-gray-500 bg-gray-100 flex-1 p-2 pl-4 ">
         {{ name }}
       </p>
     </div>
     <div>
-      <p class="text-sm p-2 text-gray-500">{{ profileSummary }}</p>
+      <p class="text-xs p-2 text-gray-500">{{ profileSummary }}</p>
     </div>
     <!-- ICONS-->
     <div class="grid grid-cols-3 pt-4">
