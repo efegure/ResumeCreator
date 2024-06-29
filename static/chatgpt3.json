@@ -2,20 +2,17 @@
   "header": {
     "name": "Efe Güre",
     "jobTitle": "Team Lead",
-    "profileImg": "profile.png",
+    "profileImg": "https://media.licdn.com/dms/image/D4D03AQEeu-NwzLIkNQ/profile-displayphoto-shrink_400_400/0/1688634776367?e=1695859200&v=beta&t=maxrrGlknSFV3-V5sOG-uEdHdg8udDf6mxxsS5Ipuic",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png",
     "gitLink": "https://github.com/efegure"
   },
   "contact": {
-    "name":"Efe Güre",
     "city": "Istanbul, Turkey",
     "phone": "+905392757576",
     "email": "efegure@gmail.com",
-    "profileImg": "profile.png",
     "cityIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Map_pin_icon.svg/752px-Map_pin_icon.svg.png",
     "phoneIcon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPRG4Jx5uDk3986TOuHwKIiLLcKX4Ut_hUA&usqp=CAU",
-    "emailIcon": "https://www.icmimarlikdergisi.com/wp-content/uploads/2017/07/email-icon-23.png",
-    "profileSummary":"Highly skilled Frontend Developer with extensive experience leading teams and delivering user-friendly web applications using JavaScript frameworks such as Vue, React, and Angular. Expert in creating dynamic, responsive UIs, with a strong focus on problem-solving and attention to detail. Fluent in English and Turkish, committed to continuous learning, and staying current with industry trends."
+    "emailIcon": "https://www.icmimarlikdergisi.com/wp-content/uploads/2017/07/email-icon-23.png"
   },
   "skills": [
     {
@@ -69,8 +66,8 @@
         {
           "title": "Education",
           "skills": [
-            "Izmir Institute of Technology, Computer Engineering (2012-2017)",
-            "Izmir Atatürk High School (2007-2012)"
+            "Izmir Atatürk High School (2007-2012)",
+            "Izmir Institute of Technology, Computer Engineering (2012-2017)"
           ]
         }
       ]
@@ -83,75 +80,69 @@
       "location": "Turkey / Remote",
       "job": "Dashboard Team Lead",
       "date": "June 2019 - Present",
-      "companyLogo": "ezloinnovation_logo.jpeg",
+      "companyLogo": "https://media.licdn.com/dms/image/C560BAQHFrQ3a9EJV6g/company-logo_100_100/0/1679673202279?e=1692230400&v=beta&t=eoLUGlfcgnrswDuIr5KolBSjiwN2ls7IcitTGZ5XMAA",
       "body": [
         "Led the development of a dynamic UI template application allowing users to create and interact with customized dashboards for home-automation devices.",
         "Oversaw all aspects of the project including development, sprint planning, estimation, code review, and build management.",
         "Key Achievements:",
-        "- Implemented a drag-and-drop designer for creating custom UI elements and data binding to these elements.",
-        "- Developed a flexible solution for storing and displaying the UIs created by end-users.",
+        "- Developed a flexible solution for storing and displaying UIs created by end-users.",
+        "- Implemented a drag-and-drop designer view for data binding to UI elements.",
         "- Reduced app bundle size by 40%.",
         "- Identified and resolved a significant memory leakage issue.",
         "- Implemented web workers for non-blocking API communication.",
-        "- Integrated telemetry logging data.",
-        "Vue, JavaScript, HTML/CSS, SCSS, Vuex, webpack, ESLint, Git"
+        "Tech stack: Vue, JavaScript, HTML/CSS, SCSS, Vuex, webpack, ESLint, Git"
       ]
     },
     {
       "title": "Ginoa.io",
       "company": "Ginoa",
-      "job": "Senior Frontend Developer(Contractor)",
-      "location": "Turkey / Remote",
+      "job": "Senior Frontend Developer",
+      "location": "Turkey / Remote Contractor",
       "date": "November 2022 - April 2023",
-      "companyLogo": "ginoaio_logo.jpeg",
+      "companyLogo": "https://media.licdn.com/dms/image/D4D0BAQGc_Evmq4qUSw/company-logo_200_200/0/1681641519830?e=1692230400&v=beta&t=IkQOyp5OWQ4MCEC8hKLKsjLbLnv2XwdJ-c_7t-1Z9qE",
       "body": [
         "Contracted for a web3 application focused on NFT bartering and trading.",
         "Responsibilities included:",
         "- Deciding the tech stack and general app layout",
         "- Creating responsive UI elements",
-        "- Implementing data binding from APIs",
-        "- Integrated virtualization to render numerous NFTs efficiently with advanced paging/loading capabilities",
-        "React, TypeScript, Tailwind, react-query, Recharts, Headless UI, Vite"
+        "- Implementing data binding from APIs.",
+        "- Integrated virtualization to render numerous NFTs efficiently with advanced paging/loading capabilities.",
+        "Tech stack: React, TypeScript, Tailwind, react-query, Recharts, Headless UI, Vite"
       ]
     },
     {
       "title": "NuMessage",
-      "job": "Frontend Developer",
       "company": "Nurd Innovation",
       "location": "Turkey / Izmir",
       "date": "Oct 2018 - June 2019",
-      "companyLogo": "nuweb_logo.jpeg",
+      "companyLogo": "https://media.licdn.com/dms/image/C4D0BAQFD2wZHp3tuXA/company-logo_100_100/0/1544450567150?e=1692230400&v=beta&t=Ksf7o4_V38KO-vEE0J6g5CbW2RjEWu0TF-m8-hi7t6I",
       "body": [
         "Contributed to a 'Skype-like' cross-platform and web messaging project.",
-        "- Developed new components",
-        "- Wrote documentation",
-        "- Conducted unit testing",
-        "NativeScript-Vue, Vue, JavaScript, HTML/CSS, SCSS"
+        "- Developed new components, wrote documentation, and conducted unit testing.",
+        "Tech stack: NativeScript-Vue, Vue, JavaScript, HTML/CSS, SCSS"
       ]
     },
     {
-      "title": "E-commerce Platform",
-      "job": "Frontend Developer",
+      "title": "Frontend Developer (Outsource)",
       "company": "Univera",
       "location": "Turkey / Izmir",
       "date": "Jun 2017 - Mar 2018",
-      "companyLogo": "univeratechnology_logo.jpeg",
+      "companyLogo": "https://media.licdn.com/dms/image/C4D0BAQHkLqJMqNPXnw/company-logo_100_100/0/1680174786190?e=1692230400&v=beta&t=dnW7zNxorIBCKQtEvBYABeJr-PNIPLOML511sMy4g2A",
       "body": [
         "Developed and documented several plugins for an e-commerce application using Google Analytics.",
-        "NopCommerce, C#, .NET, JavaScript, Google Analytics"
+        "Tech stack: NopCommerce, C#, .NET, JavaScript, Google Analytics"
       ]
     },
     {
-      "title": "Pincident",
+      "title": "Junior Frontend Developer",
       "company": "Delta Smart Technologies (startup)",
-      "job": "Junior Frontend Developer",
       "location": "Turkey / Urla",
       "date": "Jan 2017 - Jun 2017 / Mar 2018 - Jun 2018",
-      "companyLogo": "delta.jpeg",
+      "companyLogo": "https://media.licdn.com/dms/image/C560BAQEqbnVU1_FC9w/company-logo_100_100/0/1519861777424?e=1692230400&v=beta&t=scqh4zzkbQXku5dRY8VRjNU84AzgpeNFKSlAqFdaEZ8",
       "body": [
-        "Created a web-based admin panel for an incident management application used by city halls to receive reports from citizens.",
+        "Solely responsible for creating a web-based admin panel for an incident management application used by city halls to receive reports from citizens.",
         "Worked within a small development team, collaborating closely with backend and cross-platform developers.",
-        "Angular, TypeScript, rxjs, HTML/CSS"
+        "Tech stack: Angular, TypeScript, rxjs, HTML/CSS"
       ]
     }
   ]
