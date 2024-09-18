@@ -1,6 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   ssr:false,
+  exports:{
+    externals: {
+      // only define the dependencies you are NOT using as externals!
+      canvg: "canvg",
+      html2canvas: "html2canvas",
+      dompurify: "dompurify"
+    }
+  },
   head: {
     title: 'cVizard',
     htmlAttrs: {

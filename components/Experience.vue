@@ -1,21 +1,23 @@
 <template>
-  <div class="bg-white rounded-xl py-2 px-6 shadow mt-3">
+  <div class="py-2 px-6  mt-3 border-b ">
     <!-- NAME -->
     <div class="flex flex-row border-b">
-      <img class="h-14 rounded-full " :src="require(`~/assets/images/${companyLogo}`)" />
-      <div class="grow align-middle self-center rounded-full text-slate-400  flex-1  pl-4 ">
-        <p class="font-semibold text-base text-black">
+      <!-- <img class="h-14 rounded-full " :src="require(`~/assets/images/${companyLogo}`)" /> -->
+      <div class="w-full  rounded-full text-slate-400 flex  flex-row items-start justify-between">
+        <h3 class="font-semibold text-base text-black">
           {{ title }}
-        </p>
-        <div class="flex flex-row text-xs">
-          <span class="mr-1 text-gray-500">{{ company }}</span>
-          <span class="mr-1 text-gray-500">-</span>
-          <span class="mr-1 text-gray-500">{{ location }}</span>
-          <span class="mr-1 text-gray-500">-</span>
-          <span class="mr-1 text-gray-500">{{ job }}</span>
+        </h3>
+        <div class="flex flex-col">
+          <div class="flex flex-row text-xs">
+            <p class="mr-1 text-gray-500">{{ company }}</p>
+            <p class="mr-1 text-gray-500">-</p>
+            <p class="mr-1 text-gray-500">{{ location }}</p>
+            <p class="mr-1 text-gray-500">-</p>
+            <p class="mr-1 text-gray-500">{{ job }}</p>
 
+          </div>
+          <p class="text-xs text-gray-800 self-end">{{ date }}</p>
         </div>
-        <span class="text-xs text-gray-800">{{ date }}</span>
       </div>
 
     </div>

@@ -2,15 +2,15 @@
   <div class="grid grid-cols-2 bg-white rounded-t-xl items-center p-1 px-9 shadow">
     <!-- NAME -->
     <div class="flex flex-row ">
-      <img class="h-12 rounded-full mr-2 " :src="logo" />
-      <p class="align-middle self-center rounded-full text-gray-500 text-slate-400 bg-gray-100 p-2 pl-4 w-56">
+      <!-- <img class="h-12 rounded-full mr-2 " :src="logo" /> -->
+      <h3 class="nowrap align-middle self-center rounded-full text-gray-500 text-slate-400 bg-gray-100 p-2 pl-4 w-56">
         {{ jobTitle }}
-      </p>
+      </h3>
     </div>
     <!-- ICONS-->
     <div class="grid grid-cols-3">
       <div class="flex flex-row rounded-full bg-blue-50 p-1 px-2 ">
-        <img class="h-9 rounded-full mr-2 self-center" :src="require(`~/assets/images/${profileImg}`)" />
+        <!-- <img class="h-9 rounded-full mr-2 self-center" :src="require(`~/assets/images/${profileImg}`)" /> -->
         <p class="tracking-normal align-middle self-center text-sm text-blue-600">
           {{ name }}
         </p>
@@ -25,8 +25,8 @@
               fill="currentColor" />
           </svg></a>
         <a href="https://www.linkedin.com/in/efe-g%C3%BCre-5a47b0b9/">
-          <img class="h-6"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" />
+          <!-- <img class="h-6"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" /> -->
         </a>
       </div>
       <div class="flex justify-center items-center">
@@ -35,7 +35,8 @@
       </div>
     </div>
   </div>
-</div></template>
+  </div>
+</template>
 <script>
 export default {
   name: 'NameCard',
@@ -65,5 +66,3 @@ export default {
 
 </script>
 <style></style>
-
-
