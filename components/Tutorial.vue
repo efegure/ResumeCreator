@@ -34,175 +34,207 @@
       </div> -->
       <div ref="pdf" class="bg-white text-gray-800">
 
-        <div class="container mx-auto p-6">
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <!-- Left Column: Contact, Skills, Education, etc. -->
-            <div class="space-y-6 col-span-3">
-              <div>
-                <h1 class="text-3xl font-bold text-blue-500 ">Efe Güre</h1>
-                <h2 class="text-xl font-semibold">Senior Frontend Engineer / Team Lead</h2>
+        <div class=" bg-gray-100 p-6max-w-4xl mx-auto bg-white p-8 shadow-lg">
+          <!-- Header Section -->
+          <div class="flex justify-between items-center">
+            <div>
+              <h1 class="text-4xl font-bold">EFE GÜRE</h1>
+              <h2 class="text-2xl font-medium text-blue-600">Senior Frontend Developer</h2>
+              <p class="font-bold text-gray-600">+905392757576 | efegure@gmail.com | Istanbul</p>
+              <p class="font-bold text-gray-600 cursor-pointer">
+                <strong>https://www.linkedin.com/in/efe-g%C3%BCre-5a47b0b9/</strong>
+              </p>
+              <p class="font-bold text-gray-600 cursor-pointer">
+                <strong>https://github.com/efegure</strong>
+              </p>
+            </div>
+          </div>
 
-              </div>
+          <!-- Main Content -->
+          <div class="grid grid-cols-2 gap-8 mt-8">
+            <!-- Experience Section -->
+            <div>
+              <h3 class="text-2xl font-bold mb-4 border-b-4 border-black ">EXPERIENCE</h3>
 
-              <div class="space-y-4">
-                <p>Highly skilled Frontend Developer with extensive experience leading teams and delivering
-                  user-friendly web applications using JavaScript frameworks such as Vue, React, and Angular. Expert in
-                  creating dynamic, responsive UIs, with a strong focus on problem-solving and attention to detail.
-                  Fluent in English and Turkish, committed to continuous learning, and staying current with industry
-                  trends.</p>
-              </div>
-              <h2 class="text-2xl font-bold text-blue-500 border-b pb-4">Work Experience</h2>
-
-              <div class="grid grid-cols-4">
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2">Team Lead \ Senior Developer</h3>
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2 text-right">June 2019 - August 2024</h3>
-                <p class="col-span-4 mt-4"><strong>Company:</strong> Ezlo Innovation</p>
-                <p class="col-span-4 mt-4"><strong>Product:</strong> Dashboard Configurator</p>
-                <p class="col-span-4 mt-4"><strong>Location:</strong> Turkey / Remote</p>
-                <ul class="list-disc list-inside col-span-4 mt-4">
-                  <li>Led the development of a dynamic UI template application allowing users to create and interact
-                    with customized dashboards for home-automation devices.</li>
-                  <li>Oversaw all aspects of the project including development, sprint planning, estimation, code
-                    review, and build management.</li>
-                  <li>Implemented a drag-and-drop designer for creating custom UI elements and data binding to these
-                    elements.</li>
-                  <li>Developed a flexible solution for storing and displaying the UIs created by end-users.</li>
-                  <li>Reduced app bundle size by 40%.</li>
-                  <li>Identified and resolved a significant memory leakage issue.</li>
-                  <li>Implemented web workers for non-blocking API communication.</li>
-                  <li>Integrated telemetry logging data.</li>
-
-                </ul>
-                <p class="col-span-4 mt-4"><strong>Tech Stack:</strong> Vue, JavaScript, HTML/CSS, SCSS, Vuex, webpack,
-                  ESLint, Git</p>
-              </div>
-
-              <div class="grid grid-cols-4">
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2">Senior Frontend Developer(Contractor)</h3>
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2 text-right"> November 2022 - April 2023</h3>
-                <p class="col-span-4 mt-4"><strong>Company:</strong> Ginoa</p>
-                <p class="col-span-4 mt-4"><strong>Product:</strong> Ginoa.io </p>
-                <p class="col-span-4 mt-4"><strong>Location:</strong> Turkey / Remote</p>
-                <ul class="list-disc list-inside col-span-4 mt-4">
-                  <li>Contracted for a web3 application focused on NFT bartering and trading.</li>
-                  <li>Deciding the tech stack and general app layout.</li>
-                  <li>Creating responsive UI elements.</li>
-                  <li>Implementing data binding from APIs.</li>
-                  <li>Integrated virtualization to render numerous NFTs efficiently with advanced paging/loading
-                    capabilities.</li>
-                </ul>
-                <p class="col-span-4 mt-4"><strong>Tech Stack:</strong> React, TypeScript, Tailwind, react-query,
-                  Recharts,
-                  Headless UI, Vite</p>
-              </div>
-
-              <div class="grid grid-cols-4">
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2">Frontend Developer</h3>
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2 text-right">Oct 2018 - June 2019</h3>
-                <p class="col-span-4 mt-4"><strong>Company:</strong> Nurd Innovation</p>
-                <p class="col-span-4 mt-4"><strong>Product:</strong> NuMessage</p>
-                <p class="col-span-4 mt-4"><strong>Location:</strong> Turkey / Izmir</p>
-                <ul class="list-disc list-inside col-span-4 mt-4">
-                  <li>Contributed to a 'Skype-like' cross-platform and web messaging project.</li>
-                  <li>Developed new components.</li>
-                  <li>Wrote documentation.</li>
-                  <li>Conducted unit testing.</li>
-                  <li>Tech Stack: NativeScript-Vue, Vue, JavaScript, HTML/CSS, SCSS</li>
-                </ul>
-              </div>
-
-              <div class="grid grid-cols-4">
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2">Frontend Developer</h3>
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2 text-right">Jun 2017 - Mar 2018</h3>
-                <p class="col-span-4 mt-4"><strong>Company:</strong> Univera</p>
-                <p class="col-span-4 mt-4"><strong>Product:</strong> E-commerce Platform</p>
-                <p class="col-span-4 mt-4"><strong>Location:</strong> Turkey / Izmir</p>
-                <ul class="list-disc list-inside col-span-4 mt-4">
-                  <li>Developed and documented several plugins for an e-commerce application using Google Analytics.
+              <div class="mb-6 border-b border-dashed border-black pb-4">
+                <h4 class="font-semibold text-xl">Team Lead / Senior Frontend Developer</h4>
+                <p class="text-gray-600 text-blue-600 font-semibold text-lg">Ezlo Innovation </p>
+                <p class="text-gray-600">06/2019 - 08/2024 - Turkey/Remote</p>
+                <h5 class="font-semibold text-black mt-2">Dashboard Configurator</h5>
+                <ul class="list-disc ml-5 text-gray-700 mt-2">
+                  <li>Developed a browser-based interface using Vue.js, Vuex, Bootstrap, JavaScript, Vue Router,
+                    HTML/CSS, and SCSS.</li>
+                  <li>Led technical meetings, sprint planning, task estimation, code reviews and grooming as team lead.
                   </li>
+                  <li>Created UI editor page for designing custom interfaces to control Z-Wave devices, view live IP
+                    camera streams, interact with door locks, and monitor sensor values.</li>
+                  <li>Implemented web workers to optimize performance and responsiveness.</li>
+                  <li>Collaborated with backend and mobile teams.</li>
+                  <li>Integrated a service worker for caching and Progressive Web App (PWA) functionality.</li>
+                  <li>Utilized virtualization techniques to enhance rendering speed and efficiency by 20%.</li>
+                  <li>Established WebRTC connections for real-time communication.</li>
+                  <li>Implemented WebSocket and REST API requests for data exchange.</li>
+                  <li>Integrated OpenTelemetry logging for monitoring and Bugsnag for error tracking.</li>
+                  <li>Utilized ApexCharts for advanced graphical representations.</li>
+                  <li>Reduced app bundle size by 40% and resolved significant memory leakage issues.</li>
                 </ul>
-                <p class="col-span-4 mt-4"><strong>Tech Stack:</strong> NopCommerce, C#, .NET, JavaScript, Google
-                  Analytics
-                </p>
+                <h5 class="font-semibold text-black mt-2">MyConstellation</h5>
+                <ul class="list-disc ml-5 text-gray-700 mt-2">
+                  <li>Created an application for a third-party company enabling users to manage
+                    electricity and
+                    natural gas subscriptions, pay bills, access invoices, and interact with their accounts.</li>
+                  <li>Created pages and User Interface components using Vue.js, JavaScript, Bootstrap, and HTML/CSS.
+                  </li>
+                  <li>Integrated third-party APIs for data retrieval and interaction.</li>
+                  <li>Applied state management using RxJS for efficient data handling and updates.</li>
+                </ul>
+                <h5 class="font-semibold text-black mt-2">Protect Dashboard</h5>
+                <ul class="list-disc ml-5 text-gray-700 mt-2">
+                  <li>Developed a home security application which users can interact with Z-Wave devices for home
+                    automation.</li>
+                  <li>Established handling of api requests, websocket connections for displaying live data, webrtc
+                    connections for video livestreaming.</li>
+                  <li>Implemented websocket connections for displaying live data, </li>
+                  <li>Created webrtc connections for video livestreaming.</li>
+                  <li>Utilized Vue.js, Vuex, Bootstrap, JavaScript, Vue Router, HTML/CSS, and SCSS for frontend
+                    development.</li>
+                </ul>
               </div>
 
-              <div class="grid grid-cols-4">
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2">Junior Frontend Developer</h3>
-                <h3 class="text-xl font-semibold text-blue-400 col-span-2 text-right"> Jan 2017 - Jun 2017 / Mar 2018 -
-                  Jun 2018
-                </h3>
-                <p class="col-span-4 mt-4"><strong>Company:</strong> Delta Smart Technologies (startup)</p>
-                <p class="col-span-4 mt-4"><strong>Product:</strong> Pincident</p>
-                <p class="col-span-4 mt-4"><strong>Location:</strong> Turkey / Urla</p>
-
-                <ul class="list-disc list-inside col-span-4">
-                  <li>Created a web-based admin panel for an incident management application used by city halls to
-                    receive reports from citizens.</li>
-                  <li>Worked within a small development team, collaborating closely with backend and cross-platform
-                    developers.</li>
+              <div class="mb-6  border-b border-dashed border-black pb-4">
+                <h4 class="font-semibold text-xl">Senior Frontend Developer</h4>
+                <p class="text-gray-600 text-blue-600 font-semibold text-lg">Ginoa</p>
+                <p class="text-gray-600">11/2022 - 04/2023 - Turkey</p>
+                <ul class="list-disc ml-5 text-gray-700 mt-2">
+                  <li>Developed an NFT trading application using React, TypeScript, Tailwind CSS, React Query, and
+                    Redux.</li>
+                  <li>Coded high performance, accessible, scalable and browser compatible pages and components that are
+                    in line with
+                    industry standarts.</li>
+                  <li>Managed data binding from APIs and displayed data dynamically.</li>
+                  <li>Enhanced performance by adding virtualization to efficiently display thousands of NFTs</li>
                 </ul>
-                <p class="col-span-4 mt-4"><strong>Tech Stack:</strong> Angular, TypeScript, rxjs, HTML/CSS
-                </p>
               </div>
 
+              <div class="mb-6  border-b border-dashed border-black pb-4">
+                <h4 class="font-semibold text-xl">Frontend Developer</h4>
+                <p class="text-gray-600 text-blue-600 font-semibold text-lg">Nurd Innovation</p>
+                <p class="text-gray-600">10/2018 - 06/2019 - Turkey</p>
+                <ul class="list-disc ml-5 text-gray-700 mt-2">
+                  <li>Contributed to a 'Skype-like' cross-platform and web messaging project.</li>
+                  <li>Developed new components and conducted unit testing.</li>
+                </ul>
+              </div>
 
+              <div class="mb-6 border-b border-dashed border-black pb-4">
+                <h4 class="font-semibold text-xl">Junior Frontend Developer</h4>
+                <p class="text-gray-600 text-blue-600 font-semibold text-lg">Delta Smart Technologies </p>
+                <p class="text-gray-600">01/2017 - 06/2018 - Turkey</p>
+                <ul class="list-disc ml-5 text-gray-700 mt-2">
+                  <li>Created a web-based admin panel for an incident management application used by city halls using
+                    Angular, Typescript, RxJs, bootstrap.</li>
+                  <li>Collaborated closely with backend and cross-platform developers.</li>
+                </ul>
+              </div>
+
+              <div class="mb-6 border-b border-dashed border-black pb-4">
+                <h4 class="font-semibold text-xl">Frontend Developer</h4>
+                <p class="text-gray-600 text-blue-600 font-semibold text-lg">Univera</p>
+                <p class="text-gray-600 ">06/2017 - 03/2018 - Turkey</p>
+                <ul class="list-disc ml-5 text-gray-700 mt-2">
+                  <li>Developed and documented several plugins for an e-commerce application.</li>
+                  <li>Created analytics page using google anaytlics data and displayed
+                    detailed graphs.</li>
+                  <li>Tech Stack: NopCommerce, C#, .NET, JavaScript, Google Analytics.</li>
+                </ul>
+              </div>
             </div>
 
-            <!-- Right Column: Work Experience -->
-            <div class="space-y-6 bg-gray-100 p-4 rounded-xl">
-              <h3 class="text-xl font-semibold text-blue-300 border-b pb-4">Contact Info</h3>
-              <p class="mt-2"><strong>Location:</strong> Istanbul, Turkey</p>
-              <p><strong>Phone:</strong> +905392757576</p>
-              <p><strong>Email:</strong> efegure@gmail.com</p>
-              <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/efe-g%C3%BCre-5a47b0b9/</p>
-              <div class="space-y-4">
-                <h3 class="text-xl font-semibold text-blue-300 border-b pb-4">Technologies</h3>
-                <ul class="list-disc list-inside">
-                  <li>JavaScript, TypeScript</li>
-                  <li>Vue.js, React.js, AngularJS</li>
-                  <li>Tailwind, Bootstrap</li>
-                  <li>HTML, CSS, SCSS</li>
-                  <li>Vuex, redux</li>
-                  <li>rtk-query, react-window, virtualization</li>
-                  <li>webpack, Jenkins, ESLint</li>
-                  <li>GitHub, npm</li>
-                  <li>Jira, Figma</li>
-                  <li>NativeScript</li>
+            <!-- Right Column: Summary, Skills, Education -->
+            <div>
+              <!-- Summary -->
+              <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-4 border-b-4 border-black ">SUMMARY</h3>
+                <p class="text-gray-700 mt-2">
+                  Senior Frontend Engineer / Team Lead with extensive experience leading teams and delivering
+                  user-friendly web applications. Skilled in JavaScript frameworks (Vue, React, Angular), and creating
+                  responsive User Interfaces. Fluent in English and Turkish, with a focus on continuous learning and
+                  innovation.
+                </p>
+              </div>
+
+              <!-- Languages -->
+              <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-4 border-b-4 border-black ">LANGUAGES</h3>
+
+                <ul class="mt-2">
+                  <li class="flex justify-between border-b-2 border-dashed border-black py-2">
+                    <span class="font-semibold ">English</span>
+                    <span>Advanced</span>
+                  </li>
+                  <li class="flex justify-between border-b-2 border-dashed border-black py-2">
+                    <span class="font-semibold ">French</span>
+                    <span>Limited</span>
+                  </li>
+                  <li class="flex justify-between border-b-2 border-dashed border-black py-2">
+                    <span class="font-semibold ">Turkish</span>
+                    <span>Native</span>
+                  </li>
                 </ul>
               </div>
 
-              <div class="space-y-4">
-                <h3 class="text-xl font-semibold text-blue-300 border-b pb-4">Languages</h3>
-                <ul class="list-disc list-inside">
-                  <li>Turkish - Native</li>
-                  <li>English - Fluent</li>
-                  <li>French - Limited</li>
+              <!-- Skills -->
+              <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-4 border-b-4 border-black ">SKILLS</h3>
+                <ul class="grid grid-cols-4 gap-2 mt-2 text-gray-700">
+                  <li class="font-semibold">Front End</li>
+                  <li class="font-semibold">Vue.js</li>
+                  <li class="font-semibold">Vue.js</li>
+                  <li class="font-semibold">Vue.js</li>
+
+                  <li class="font-semibold">Vue.js</li>
+                  <li class="font-semibold">React</li>
+                  <li class="font-semibold">Next.js</li>
+                  <li class="font-semibold">TypeScript</li>
+                  <li class="font-semibold">JavaScript ES6</li>
+                  <li class="font-semibold">AngularJS</li>
+                  <li class="font-semibold">Tailwind CSS</li>
+                  <li class="font-semibold">Bootstrap</li>
+                  <li class="font-semibold">HTML/CSS</li>
+                  <li class="font-semibold">SCSS</li>
+                  <li class="font-semibold">Vuex</li>
+                  <li class="font-semibold">Redux</li>
+                  <li class="font-semibold">rtk-query</li>
+                  <li class="font-semibold">react-window</li>
+                  <li class="font-semibold">virtualization</li>
+                  <li class="font-semibold">jenkins</li>
+                  <li class="font-semibold">E2E testing</li>
+                  <li class="font-semibold">Playwright</li>
+                  <li class="font-semibold">Npm</li>
+                  <li class="font-semibold">Yarn</li>
+                  <li class="font-semibold">Webpack</li>
+                  <li class="font-semibold">GitHub</li>
+                  <li class="font-semibold">NativeScript</li>
+                  <li class="font-semibold">Best Practices</li>
+                  <li class="font-semibold">Agile</li>
                 </ul>
               </div>
 
-              <div class="space-y-4">
-                <h3 class="text-xl font-semibold text-blue-300 border-b pb-4">Soft Skills</h3>
-                <ul class="list-disc list-inside">
-                  <li>Problem-solving</li>
-                  <li>Attention to Detail</li>
-                  <li>Time management</li>
-                  <li>Leadership</li>
-                  <li>Communication</li>
-                  <li>Adaptability</li>
-                </ul>
+              <!-- Education -->
+              <div>
+                <h3 class="text-2xl font-bold mb-4 border-b-4 border-black ">EDUCATION</h3>
+                <p class="text-gray-700 mt-2">
+                  <strong>Izmir Institute of Technology</strong> - Computer Engineering (2012-2017)
+                </p>
+                <p class="text-gray-700 mt-2">
+                  <strong>Izmir Atatürk High School</strong> - (2007-2012)
+                </p>
               </div>
-
-              <div class="space-y-4">
-                <h3 class="text-xl font-semibold text-blue-300 border-b pb-4">Education</h3>
-                <ul class="list-disc list-inside">
-                  <li>Izmir Institute of Technology, Computer Engineering (2012-2017)</li>
-                  <li>Izmir Atatürk High School (2007-2012)</li>
-                </ul>
-              </div>
-
             </div>
           </div>
         </div>
+
+
 
 
       </div>
@@ -273,7 +305,7 @@ export default {
       document.body.style.zoom = 1;
       doc.html(this.$refs.pdf, {
         x: 0, y: 0, autoPaging: "text", html2canvas: {
-          scale: 0.6, // default is window.devicePixelRatio
+          scale: 0.403, // default is window.devicePixelRatio
           dpi: 192,  // Reduces dots per inch for faster rendering
           useCORS: true  // Ensures that resources are handled efficiently
         },
