@@ -189,10 +189,6 @@
                 <ul class="grid grid-cols-4 gap-2 mt-2 text-gray-700">
                   <li class="font-semibold">Front End</li>
                   <li class="font-semibold">Vue.js</li>
-                  <li class="font-semibold">Vue.js</li>
-                  <li class="font-semibold">Vue.js</li>
-
-                  <li class="font-semibold">Vue.js</li>
                   <li class="font-semibold">React</li>
                   <li class="font-semibold">Next.js</li>
                   <li class="font-semibold">TypeScript</li>
