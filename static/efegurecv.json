@@ -79,6 +79,26 @@
   ],
   "experiences": [
     {
+      "title": "Bettor Interface",
+      "company": "Metric Gaming",
+      "location": "Turkey / Remote",
+      "job": "Senior Frontend Engineer(Contractor)",
+      "date": "Nov 2024 - Feb 2025",
+      "companyLogo": "ezloinnovation_logo.jpeg",
+      "body": [
+        "Worked on",
+        "Oversaw all aspects of the project including development, sprint planning, estimation, code review, and build management.",
+        "Key Achievements:",
+        "- Implemented a drag-and-drop designer for creating custom UI elements and data binding to these elements.",
+        "- Developed a flexible solution for storing and displaying the UIs created by end-users.",
+        "- Reduced app bundle size by 40%.",
+        "- Identified and resolved a significant memory leakage issue.",
+        "- Implemented web workers for non-blocking API communication.",
+        "- Integrated telemetry logging data.",
+        "Single-spa, Vue, TypeScript, HTML/CSS, SCSS, webpack, vite, ESLint, Git"
+      ]
+    },
+    {
       "title": "Dashboard Configurator",
       "company": "Ezlo Innovation",
       "location": "Turkey / Remote",
