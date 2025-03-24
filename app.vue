@@ -1,4 +1,3 @@
-<!-- Please remove this file from your project -->
 <template>
   <div>
     <div class="w-full h-full min-h-screen sm:px-6 lg:px-8 bg-gray-100">
@@ -34,35 +33,178 @@
       </div> -->
       <div class=" text-gray-800 justify-self-center">
 
-        <div ref="pdf" class="bg-white p-6max-w-4xl mx-auto bg-white p-8 shadow-lg" style="width:1875px">
+        <div ref="pdf" class="custom-font-regular bg-white text-2xl p-6max-w-4xl mx-auto bg-white p-8 shadow-lg"
+          style="width:1875px">
           <!-- Header Section -->
-          <div class="flex flex-row justify-between items-center p-8   bg-gray-300">
-            <div>
-              <h1 class="text-4xl font-bold">EFE GÜRE</h1>
-              <h2 class="text-2xl font-medium text-blue-600">Senior Frontend Developer</h2>
+          <div class="flex flex-row mb-12 items-center justify-between p-8">
+            <div class="flex flex-col justify-between items-start   gap-4 ">
+              <div class="flex flex-col gap-1">
+                <h1 class="flex text-5xl  uppercase  custom-font-bold">Efe Güre</h1>
+                <h2 class="text-3xl font-bold text-blue-600">Senior Frontend Developer</h2>
+              </div>
+              <div class="flex flex-row gap-4 items-end">
+                <p class="font-bold text-gray-600">+905392757576</p>
+                <p class="font-bold text-gray-600">efegure@gmail.com</p>
+                <p class="font-bold text-gray-600">Istanbul</p>
+                <p ref="linkedin" class="font-bold text-blue-600 cursor-pointer">Linkedin</p>
+                <p ref="github" class="font-bold text-blue-600 cursor-pointer">GitHub</p>
+              </div>
             </div>
-            <div class="flex flex-col items-end">
+            <img src="./assets/images/profile.png" class="bg-blue-200 rounded-full w-[250px] h-[230px]" />
 
-              <p class="font-bold text-gray-600">+905392757576</p>
-              <p class="font-bold text-gray-600">efegure@gmail.com</p>
-              <p class="font-bold text-gray-600">Istanbul</p>
-              <p class="font-bold text-blue-600 cursor-pointer">
-                <a ref="linkedin" href="https://www.linkedin.com/in/efe-g%C3%BCre-5a47b0b9/">Linkedin</a>
-              </p>
-              <p class="font-bold text-blue-600 cursor-pointer">
-                <a ref="github" href="https://github.com/efegure">GitHub</a>
-              </p>
-            </div>
           </div>
 
+
           <!-- Main Content -->
-          <div class="flex flex-col">
+          <div class="grid grid-cols-12">
+
+
+            <div class="p-8  col-span-8">
+              <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">EXPERIENCE</h3>
+
+
+              <div class="mb-6 border-b border-dashed border-black pb-4">
+                <h5 class=" text-black text-[1.7rem] font-bold">Senior Frontend Engineer</h5>
+                <p ref="metric" class="text-blue-600 font-bold text-[1.3rem]">Metric Gaming </p>
+                <p class="font-bold text-gray-500 text-xl">10/2024 - 02/2025 - Turkey/Remote</p>
+                <p class="font-bold  mt-2 text-[1.3rem]">Bettor Interface - Sportsbook</p>
+                <div class="grid  gap-6">
+                  <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
+                    <li>Migrated various micro frontend applications from webpack to vite bundler and updated the node
+                      versions of the applications.</li>
+                    <li>Investigated and solved multiple bugs in different micro front end applications.
+                    </li>
+                    <li>Collaborated on code reviews and task estimations.</li>
+
+                    <li>Improved developer experience by adding css bundling capabilities for applications running
+                      locally using tailwindcss.
+                    </li>
+                    <li>Optimized micro frontend applications by moving shared libraries to a helper micro frontend
+                      application.</li>
+
+                  </ul>
+                </div>
+
+              </div>
+              <div class="mb-6 border-b border-dashed border-black pb-4">
+
+                <h4 class=" text-black text-[1.7rem] font-bold">Team Lead / Senior Frontend Developer</h4>
+                <p ref="ezlo" class=" text-blue-600 font-bold text-[1.3rem]">Ezlo Innovation </p>
+                <p class="font-bold text-gray-500 text-xl">06/2019 - 08/2024 - Turkey/Remote</p>
+                <h5 class="font-bold text-black mt-2">Dashboard Configurator</h5>
+                <div class=" gap-6">
+                  <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
+                    <li>Developed a browser-based interface using Vue.js, Vuex, Bootstrap, JavaScript, Vue Router,
+                      HTML/CSS, and SCSS.</li>
+                    <li>Led technical meetings, sprint planning, task estimation, code reviews and grooming as team
+                      lead.
+                    </li>
+                    <li>Created UI editor page for designing custom interfaces to control Z-Wave devices, view live IP
+                      camera streams, interact with door locks, and monitor sensor values.</li>
+                    <li>Implemented web workers to optimize performance and responsiveness.</li>
+                    <li>Collaborated with backend and mobile teams.</li>
+
+                    <li>Integrated a service worker for caching and Progressive Web App (PWA) functionality.</li>
+                    <li>Utilized virtualization techniques to enhance rendering speed and efficiency by 20%.</li>
+                    <li>Established WebRTC connections for real-time communication.</li>
+                    <li>Implemented WebSocket and REST API requests for data exchange.</li>
+                    <li>Integrated OpenTelemetry logging for monitoring and Bugsnag for error tracking.</li>
+                    <li>Utilized ApexCharts for advanced graphical representations.</li>
+                    <li>Reduced app bundle size by 40% and resolved significant memory leakage issues.</li>
+                  </ul>
+                </div>
+                <h5 class="font-semibold text-black mt-2">MyConstellation</h5>
+                <div class=" gap-6">
+                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
+                    <li>Created an application for a third-party company enabling users to manage
+                      electricity and
+                      natural gas subscriptions, pay bills, access invoices, and interact with their accounts.</li>
+                    <li>Created pages and User Interface components using Vue.js, JavaScript, Bootstrap, and HTML/CSS.
+                    </li>
+
+
+
+                    <li>Integrated third-party APIs for data retrieval and interaction.</li>
+                    <li>Applied state management using RxJS for efficient data handling and updates.</li>
+                  </ul>
+                </div>
+                <h5 class="font-semibold text-black mt-2">Protect Dashboard</h5>
+                <div class=" gap-6">
+                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
+                    <li>Developed a home security application which users can interact with Z-Wave devices for home
+                      automation.</li>
+                    <li>Created webrtc connections for video livestreaming.</li>
+                    <li>Implemented websocket connections for displaying live data, </li>
+
+
+                    <li>Established handling of api requests, websocket connections for displaying live data, webrtc
+                      connections for video livestreaming.</li>
+                    <li>Utilized Vue.js, Vuex, Bootstrap, JavaScript, Vue Router, HTML/CSS, and SCSS for frontend
+                      development.</li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="mb-6  border-b border-dashed border-black pb-4">
+                <h4 class=" text-black text-[1.7rem] font-bold">Senior Frontend Developer</h4>
+                <p ref="ginoa" class=" text-blue-600 font-bold text-[1.3rem]">Ginoa</p>
+                <p class="font-bold text-gray-500 text-xl">11/2022 - 04/2023 - Turkey</p>
+                <div class=" gap-6">
+                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
+                    <li>Developed an NFT trading application using React, TypeScript, Tailwind CSS, React Query, and
+                      Redux.</li>
+                    <li>Managed data binding from APIs and displayed data dynamically.</li>
+
+                    <li>Coded high performance, accessible, scalable and browser compatible pages and components that
+                      are
+                      in line with
+                      industry standarts.</li>
+                    <li>Enhanced performance by adding virtualization to efficiently display thousands of NFTs</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="mb-6  border-b border-dashed border-black pb-4">
+                <h4 class=" text-black text-[1.7rem] font-bold">Frontend Developer</h4>
+                <p ref="nurd" class="text-blue-600 font-bold text-[1.3rem]">Nurd Innovation</p>
+                <p class="font-bold text-gray-500 text-xl">10/2018 - 06/2019 - Turkey</p>
+                <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
+                  <li>Contributed to a 'Skype-like' cross-platform and web messaging project.</li>
+                  <li>Developed new components and conducted unit testing.</li>
+                </ul>
+              </div>
+
+              <div class="mb-6 border-b border-dashed border-black pb-4">
+                <h4 class=" text-black text-[1.7rem] font-bold">Frontend Developer</h4>
+                <p ref="univera" class=" text-blue-600 font-bold text-[1.3rem]">Univera</p>
+                <p class="font-bold text-gray-500 text-xl ">06/2017 - 03/2018 - Turkey</p>
+                <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
+                  <li>Developed and documented several plugins for an e-commerce application.</li>
+                  <li>Created analytics page using google anaytlics data and displayed
+                    detailed graphs.</li>
+                  <li>Tech Stack: NopCommerce, C#, .NET, JavaScript, Google Analytics.</li>
+                </ul>
+              </div>
+              <div class="mb-6 border-b border-dashed border-black pb-4">
+                <h4 class="text-black text-[1.7rem] font-bold">Junior Frontend Developer</h4>
+                <p ref="delta" class="text-blue-600 font-bold text-[1.3rem]">Delta Smart Technologies </p>
+                <p class="font-bold text-gray-500 text-xl">01/2017 - 06/2018 - Turkey</p>
+                <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
+                  <li>Created a web-based admin panel for an incident management application used by city halls using
+                    Angular, Typescript, RxJs, bootstrap.</li>
+                  <li>Collaborated closely with backend and cross-platform developers.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Right Column: Summary, Skills, Education -->
             <!-- Experience Section -->
-            <div class="p-8 py-6 bg-gray-200">
+            <div class="p-8 py-6 col-span-4">
               <!-- Summary -->
               <div class="mb-6">
-                <!-- <h3 class="text-2xl font-bold mb-4 border-b-4 border-black ">SUMMARY</h3> -->
-                <p class="text-gray-700 mt-2 font-semibold">
+                <h3 class="text-3xl font-bold border-b-4 border-black pb-4">SUMMARY</h3>
+                <p class="text-gray-700 mt-2 font-medium text-xl">
                   Senior Frontend Engineer / Team Lead with extensive experience leading teams and delivering
                   user-friendly web applications. Skilled in JavaScript frameworks (Vue, React, Angular), and creating
                   responsive User Interfaces. Fluent in English and Turkish, with a focus on continuous learning and
@@ -72,8 +214,8 @@
 
               <!-- Languages -->
               <div class=" grid grid-cols-8 gap-12">
-                <div class="col-span-2">
-                  <h3 class="text-2xl font-bold mb-4 border-b-2 border-black ">LANGUAGES</h3>
+                <div class="col-span-8">
+                  <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4 ">LANGUAGES</h3>
 
                   <ul class="mt-2">
                     <li class="flex justify-between border-b border-black py-2">
@@ -91,9 +233,10 @@
                   </ul>
                 </div>
                 <!-- Skills -->
-                <div class="col-span-6">
-                  <h3 class="text-2xl font-bold mb-4 border-b-2 border-black ">SKILLS</h3>
-                  <ul class="grid grid-cols-4 gap-2 mt-2 text-gray-500">
+                <div class="col-span-8">
+                  <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">SKILLS</h3>
+                  <ul
+                    class="flex flex-row flex-wrap gap-8 text-xl gap-2 mt-2 text-gray-600 underline underline-offset-[12px]">
                     <li class="font-semibold">Vue.js</li>
                     <li class="font-semibold">React</li>
                     <li class="font-semibold">Next.js</li>
@@ -127,162 +270,15 @@
               </div>
 
               <!-- Education -->
-
-            </div>
-
-            <div class="p-8 bg-gray-100">
-              <h3 class="text-2xl font-bold mb-4 ">EXPERIENCE</h3>
-
-
-              <div class="mb-6 border-b border-dashed border-black pb-4">
-                <h4 class="font-semibold text-xl">Senior Frontend Engineer</h4>
-                <p ref="metric" class="text-gray-600 text-blue-600 font-semibold text-lg">Metric Gaming </p>
-                <p class="text-gray-600">10/2024 - 02/2025 - Turkey/Remote</p>
-                <h5 class="font-semibold text-black mt-2">Bettor Interface - Sportsbook</h5>
-                <div class="grid grid-cols-2 gap-6">
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Migrated various micro frontend applications from webpack to vite bundler and updated the node
-                      versions of the applications.</li>
-                    <li>Investigated and solved multiple bugs in different micro front end applications.
-                    </li>
-                    <li>Collaborated on code reviews and task estimations.</li>
-                  </ul>
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1  text-lg">
-                    <li>Improved developer experience by adding css bundling capabilities for applications running
-                      locally using tailwindcss.
-                    </li>
-                    <li>Optimized micro frontend applications by moving shared libraries to a helper micro frontend
-                      application.</li>
-
-                  </ul>
-                </div>
-
+              <div class="col-span-8 mt-8">
+                <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">EDUCATION</h3>
+                <p class="text-gray-700 mt-2">
+                  <strong>Izmir Institute of Technology</strong> - Computer Engineering (2012-2017)
+                </p>
+                <p class="text-gray-700 mt-2">
+                  <strong>Izmir Atatürk High School</strong> - (2007-2012)
+                </p>
               </div>
-              <div class="mb-6 border-b border-dashed border-black pb-4">
-
-                <h4 class="font-semibold text-xl">Team Lead / Senior Frontend Developer</h4>
-                <p ref="ezlo" class="text-gray-600 text-blue-600 font-semibold text-lg">Ezlo Innovation </p>
-                <p class="text-gray-600">06/2019 - 08/2024 - Turkey/Remote</p>
-                <h5 class="font-semibold text-black mt-2">Dashboard Configurator</h5>
-                <div class="grid grid-cols-2 gap-6">
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Developed a browser-based interface using Vue.js, Vuex, Bootstrap, JavaScript, Vue Router,
-                      HTML/CSS, and SCSS.</li>
-                    <li>Led technical meetings, sprint planning, task estimation, code reviews and grooming as team
-                      lead.
-                    </li>
-                    <li>Created UI editor page for designing custom interfaces to control Z-Wave devices, view live IP
-                      camera streams, interact with door locks, and monitor sensor values.</li>
-                    <li>Implemented web workers to optimize performance and responsiveness.</li>
-                    <li>Collaborated with backend and mobile teams.</li>
-                  </ul>
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Integrated a service worker for caching and Progressive Web App (PWA) functionality.</li>
-                    <li>Utilized virtualization techniques to enhance rendering speed and efficiency by 20%.</li>
-                    <li>Established WebRTC connections for real-time communication.</li>
-                    <li>Implemented WebSocket and REST API requests for data exchange.</li>
-                    <li>Integrated OpenTelemetry logging for monitoring and Bugsnag for error tracking.</li>
-                    <li>Utilized ApexCharts for advanced graphical representations.</li>
-                    <li>Reduced app bundle size by 40% and resolved significant memory leakage issues.</li>
-                  </ul>
-                </div>
-                <h5 class="font-semibold text-black mt-2">MyConstellation</h5>
-                <div class="grid grid-cols-2 gap-6">
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Created an application for a third-party company enabling users to manage
-                      electricity and
-                      natural gas subscriptions, pay bills, access invoices, and interact with their accounts.</li>
-                    <li>Created pages and User Interface components using Vue.js, JavaScript, Bootstrap, and HTML/CSS.
-                    </li>
-
-                  </ul>
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1">
-
-                    <li>Integrated third-party APIs for data retrieval and interaction.</li>
-                    <li>Applied state management using RxJS for efficient data handling and updates.</li>
-                  </ul>
-                </div>
-                <h5 class="font-semibold text-black mt-2">Protect Dashboard</h5>
-                <div class="grid grid-cols-2 gap-6">
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Developed a home security application which users can interact with Z-Wave devices for home
-                      automation.</li>
-                    <li>Created webrtc connections for video livestreaming.</li>
-                    <li>Implemented websocket connections for displaying live data, </li>
-
-                  </ul>
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Established handling of api requests, websocket connections for displaying live data, webrtc
-                      connections for video livestreaming.</li>
-                    <li>Utilized Vue.js, Vuex, Bootstrap, JavaScript, Vue Router, HTML/CSS, and SCSS for frontend
-                      development.</li>
-                  </ul>
-                </div>
-
-              </div>
-
-              <div class="mb-6  border-b border-dashed border-black pb-4">
-                <h4 class="font-semibold text-xl">Senior Frontend Developer</h4>
-                <p ref="ginoa" class="text-gray-600 text-blue-600 font-semibold text-lg">Ginoa</p>
-                <p class="text-gray-600">11/2022 - 04/2023 - Turkey</p>
-                <div class="grid grid-cols-2 gap-6">
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Developed an NFT trading application using React, TypeScript, Tailwind CSS, React Query, and
-                      Redux.</li>
-                    <li>Managed data binding from APIs and displayed data dynamically.</li>
-                  </ul>
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Coded high performance, accessible, scalable and browser compatible pages and components that
-                      are
-                      in line with
-                      industry standarts.</li>
-                    <li>Enhanced performance by adding virtualization to efficiently display thousands of NFTs</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="mb-6  border-b border-dashed border-black pb-4">
-                <h4 class="font-semibold text-xl">Frontend Developer</h4>
-                <p ref="nurd" class="text-gray-600 text-blue-600 font-semibold text-lg">Nurd Innovation</p>
-                <p class="text-gray-600">10/2018 - 06/2019 - Turkey</p>
-                <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
-                  <li>Contributed to a 'Skype-like' cross-platform and web messaging project.</li>
-                  <li>Developed new components and conducted unit testing.</li>
-                </ul>
-              </div>
-
-              <div class="mb-6 border-b border-dashed border-black pb-4">
-                <h4 class="font-semibold text-xl">Frontend Developer</h4>
-                <p ref="univera" class="text-gray-600 text-blue-600 font-semibold text-lg">Univera</p>
-                <p class="text-gray-600 ">06/2017 - 03/2018 - Turkey</p>
-                <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
-                  <li>Developed and documented several plugins for an e-commerce application.</li>
-                  <li>Created analytics page using google anaytlics data and displayed
-                    detailed graphs.</li>
-                  <li>Tech Stack: NopCommerce, C#, .NET, JavaScript, Google Analytics.</li>
-                </ul>
-              </div>
-              <div class="mb-6 border-b border-dashed border-black pb-4">
-                <h4 class="font-semibold text-xl">Junior Frontend Developer</h4>
-                <p ref="delta" class="text-gray-600 text-blue-600 font-semibold text-lg">Delta Smart Technologies </p>
-                <p class="text-gray-600">01/2017 - 06/2018 - Turkey</p>
-                <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
-                  <li>Created a web-based admin panel for an incident management application used by city halls using
-                    Angular, Typescript, RxJs, bootstrap.</li>
-                  <li>Collaborated closely with backend and cross-platform developers.</li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Right Column: Summary, Skills, Education -->
-            <div class=" p-8">
-              <h3 class="text-2xl font-bold mb-4 border-b-2 border-black">EDUCATION</h3>
-              <p class="text-gray-700 mt-2">
-                <strong>Izmir Institute of Technology</strong> - Computer Engineering (2012-2017)
-              </p>
-              <p class="text-gray-700 mt-2">
-                <strong>Izmir Atatürk High School</strong> - (2007-2012)
-              </p>
             </div>
           </div>
         </div>
@@ -311,94 +307,156 @@
     </div>
   </div>
 </template>
+<script setup>
+import { jsPDF } from "jspdf";
+import { useTemplateRef } from 'vue'
+// import fontref = "./assets/jspdf/Inter-VariableFont_opsz,wght-normal.js"
+import "./assets/jspdf/Bytesized-Regular-normal"
 
-<script>
-import cv from "static/efegurecv.json";
-import html2pdf from "html2pdf.js";
-import { jsPDF, fromHTML, split_text_to_size } from "jspdf";
+const linkedin = useTemplateRef("linkedin")
+const github = useTemplateRef("github")
+const ezlo = useTemplateRef("ezlo")
+const metric = useTemplateRef("metric")
+const nurd = useTemplateRef("nurd")
+const ginoa = useTemplateRef("ginoa")
+const univera = useTemplateRef("univera")
+const delta = useTemplateRef("delta")
+const pdf = useTemplateRef("pdf")
 
-export default {
-  name: "NuxtTutorial",
-  computed: {
-    getCV() {
-      console.log("CV", cv);
-      return cv;
+const createPdf2 = () => {
+
+  const doc = new jsPDF({
+    unit: 'pt',
+  });
+  doc.addFont('https://fonts.gstatic.com/s/lobster/v30/neILzCirqoswsqX9_oWsMqEzSJQ.ttf', 'Lobster', 'normal');
+
+  // const elementHandler = {
+  //   '#ignorePDF': function (element, renderer) {
+  //     return true;
+  //   }
+  // };
+  document.body.style.zoom = 1;
+
+
+  console.log(pdf.value)
+  console.log(linkedin)
+  // doc.setFont("Inter-VariableFont_opsz,wght");
+  // doc.setFont("Bytesized-Regular");
+  // doc.addFont('https://fonts.gstatic.com/s/lobster/v30/neILzCirqoswsqX9_oWsMqEzSJQ.ttf', 'Lobster', 'normal');
+  // doc.setFont("Lobster", "normal");
+  doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf', 'Inter', 'normal');
+  doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf', 'Inter', 'bold');
+  doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf', 'Inter', 'medium');
+  doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf', 'Inter', 'semibold');
+  // doc.addFont('https://fonts.gstatic.com/s/notoserif/v23/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCjwM0Lhq_Szw.ttf', 'Noto Serif', 'normal');
+  // doc.addFont('https://fonts.gstatic.com/s/notoserif/v23/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1ejwM0Lhq_Szw.ttf', 'Noto Serif', 'bold');
+
+  doc.html(pdf.value, {
+    x: 0, y: 0, autoPaging: "text", html2canvas: {
+      scale: 0.317, // default is window.devicePixelRatio
+      dpi: 192,  // Reduces dots per inch for faster rendering
+      useCORS: true  // Ensures that resources are handled efficiently,
     },
-  },
-  methods: {
-    createPdf() {
-      // your JS code here like >> jsPlumb.ready(function () {})
-      var opt = {
-        margin: 0,
-        filename: "cv.pdf",
-        html2canvas: {
-          scale: 4, // default is window.devicePixelRatio
-          dpi: 192,  // Reduces dots per inch for faster rendering
-          useCORS: true,
-          allowTaint: true,
-          letterRendering: true,
-        },
-        // format here is in inches A4 format is 8,5 * 11 inches
-        jsPDF: { unit: 'pt', orientation: "portrait" },
-      };
+    doc,
+    callback: function (doc_e) {
 
-      // New Promise-based usage:
+      [{ el: linkedin.value.getBoundingClientRect(), url: "https://www.linkedin.com/in/efe-g%C3%BCre-5a47b0b9/" }
+        , { el: github.value.getBoundingClientRect(), url: "https://github.com/efegure" }
+        , { el: ezlo.value.getBoundingClientRect(), url: "https://www.ezlo.com/" }
+        , { el: metric.value.getBoundingClientRect(), url: "https://www.metricgaming.com/" }
+        , { el: nurd.value.getBoundingClientRect(), url: "https://www.nurd.com/" }
+        , { el: ginoa.value.getBoundingClientRect(), url: "https://app.ginoa.io/" }
+        , { el: univera.value.getBoundingClientRect(), url: "https://univera.com.tr/" }
+        , { el: delta.value.getBoundingClientRect(), url: "https://deltasmart.tech/en/home/" }].forEach(({ el, url }) => {
+          doc_e.link((el.x - el.width) * 0.317 + 5, (el.y - el.height * 3) * 0.317 - 2, el.width * 0.317, el.height * 0.317, { url });
 
-      // Old monolithic-style usage:
-      html2pdf(this.$refs.pdf, opt);
-    },
-    createPdf2() {
-      let doc = new jsPDF({
-        unit: 'pt',
-      });
-      const elementHandler = {
-        '#ignorePDF': function (element, renderer) {
-          return true;
-        }
-      };
-      document.body.style.zoom = 1;
-      const linkedin = this.$refs.linkedin.getBoundingClientRect()
-      const github = this.$refs.github.getBoundingClientRect()
-      const ezlo = this.$refs.ezlo.getBoundingClientRect()
-      const metric = this.$refs.metric.getBoundingClientRect()
-      const nurd = this.$refs.nurd.getBoundingClientRect()
-      const ginoa = this.$refs.ginoa.getBoundingClientRect()
-      const univera = this.$refs.univera.getBoundingClientRect()
-      const delta = this.$refs.delta.getBoundingClientRect()
-
-      console.log(linkedin)
-      console.log(github)
-      doc.html(this.$refs.pdf, {
-        x: 0, y: 0, autoPaging: "text", html2canvas: {
-          scale: 0.317, // default is window.devicePixelRatio
-          dpi: 192,  // Reduces dots per inch for faster rendering
-          useCORS: true  // Ensures that resources are handled efficiently
-        },
-        doc,
-        callback: function (doc_e) {
-
-          doc_e.link((linkedin.x - linkedin.width) * 0.317 + 5, (linkedin.y - linkedin.height * 3) * 0.317 - 2, linkedin.width * 0.317, linkedin.height * 0.317, { url: "https://www.linkedin.com/in/efe-g%C3%BCre-5a47b0b9/" });
-          doc_e.link((github.x - github.width) * 0.317, (github.y - github.height * 3) * 0.317, github.width * 0.317, github.height * 0.317, { url: "https://github.com/efegure" });
-          doc_e.link((ezlo.x - ezlo.width / 2) * 0.317, (ezlo.y - ezlo.height * 3) * 0.317, ezlo.width * 0.317, ezlo.height * 0.317, { url: "https://www.ezlo.com/" });
-          doc_e.link((metric.x - metric.width / 2) * 0.317, (metric.y - metric.height * 3) * 0.317, metric.width * 0.317, metric.height * 0.317, { url: "https://www.metricgaming.com/" });
-          doc_e.link((nurd.x - nurd.width / 2) * 0.317, (nurd.y - nurd.height * 3) * 0.317, nurd.width * 0.317, nurd.height * 0.317, { url: "https://www.nurd.com/" });
-          doc_e.link((ginoa.x - ginoa.width / 2) * 0.317, (ginoa.y - ginoa.height * 3) * 0.317, ginoa.width * 0.317, ginoa.height * 0.317, { url: "https://app.ginoa.io/" });
-          doc_e.link((univera.x - univera.width / 2) * 0.317, (univera.y - univera.height * 3) * 0.317, univera.width * 0.317, univera.height * 0.317, { url: "https://univera.com.tr/" });
-          doc_e.link((delta.x - delta.width / 2) * 0.317, (delta.y - delta.height * 3) * 0.317, delta.width * 0.317, delta.height * 0.317, { url: "https://deltasmart.tech/en/home/" });
-
-          doc_e.save("ats-resume-2024.pdf");
-        }
-      });
-
-
+        })
+      doc_e.save("ats-resume-2024.pdf");
     }
-  },
-};
-</script>
-<style>
-body {
-  /* display: inline-block; */
-  /* ! https://github.com/niklasvh/html2canvas/issues/2775 */
-  /* line-height: 0.5!important; */
+  });
+
+
 }
+</script>
+<style scoped>
+/* div {
+  font-size: 26px
+} */
+@font-face {
+  font-family: 'Inter';
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf') format('truetype');
+  font-weight: 400
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf') format('truetype');
+  font-weight: 700
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Inter';
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf')
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'Inter';
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf')
+}
+
+
+
+
+.custom-font-regular {
+  font-family: 'Inter';
+  font-weight: 400;
+
+}
+
+.custom-font-bold {
+  font-family: 'Inter';
+  font-weight: 700;
+
+}
+
+.custom-font-medium {
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+.custom-font-semibold {
+  font-family: 'Inter';
+  font-weight: 600;
+}
+
+
+
+/* @font-face {
+  font-family: 'Noto Serif';
+  src: url('https://fonts.gstatic.com/s/notoserif/v23/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCjwM0Lhq_Szw.ttf') format('truetype');
+  font-weight: 400
+}
+
+
+@font-face {
+  font-family: 'Noto Serif';
+  src: url('https://fonts.gstatic.com/s/notoserif/v23/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1ejwM0Lhq_Szw.ttf') format('truetype');
+  font-weight: 700
+}
+
+
+
+.custom-font-regular {
+  font-family: 'Noto Serif';
+  font-size: 16px;
+  color: #555555;
+}
+
+.custom-font-bold {
+  font-family: 'Noto Serif';
+  color: #333333;
+  font-weight: 700
+} */
 </style>
