@@ -33,24 +33,42 @@
       </div> -->
       <div class=" text-gray-800 justify-self-center">
 
-        <div ref="pdf" class="custom-font-regular bg-white text-2xl p-6max-w-4xl mx-auto bg-white p-8 shadow-lg"
+        <div ref="pdf" class="custom-font-regular bg-white text-2xl p-6max-w-4xl mx-auto bg-white p-8  shadow-lg"
           style="width:1875px">
           <!-- Header Section -->
-          <div class="flex flex-row mb-12 items-center justify-between p-8">
+          <div class="flex flex-row  items-center justify-between px-8 py-2">
             <div class="flex flex-col justify-between items-start   gap-4 ">
               <div class="flex flex-col gap-1">
                 <h1 class="flex text-5xl  uppercase  custom-font-bold">Efe Güre</h1>
                 <h2 class="text-3xl font-bold text-blue-600">Senior Frontend Engineer</h2>
               </div>
-              <div class="flex flex-row gap-4 items-end">
-                <p class="font-bold text-gray-600">+905392757576</p>
-                <p class="font-bold text-gray-600">efegure@gmail.com</p>
-                <p class="font-bold text-gray-600">Istanbul</p>
-                <p ref="linkedin" class="font-bold text-blue-600 cursor-pointer">Linkedin</p>
-                <p ref="github" class="font-bold text-blue-600 cursor-pointer">GitHub</p>
+              <div class="flex flex-row gap-4 items-center mt-4">
+                <p class="font-bold text-gray-600  flex flex-row items-center gap-2">
+                  <img src="./assets/images/icons8-phone-50.png" class=" w-6 h-6  mt-1" />
+                  +905392757576
+                </p>
+                <p class="font-bold text-gray-600  flex flex-row items-center gap-2">
+                  <img src="./assets/images/icons8-mail-48.png" class=" w-7 h-7  mt-1" />
+
+
+                  efegure@gmail.com
+                </p>
+                <p class="font-bold text-gray-600 flex flex-row items-center gap-2">
+
+                  <img src="./assets/images/icons8-location-96.png" class=" w-7 h-7 mt-1 " />
+                  Istanbul
+                </p>
+                <p ref="linkedin" class="font-bold text-blue-600 cursor-pointer flex flex-row items-center gap-2">
+                  <img src="./assets/images/icons8-linkedin-50 (1).png" class=" w-7 h-7 mt-1 " />Linkedin
+                </p>
+                <p ref="github" class="font-bold text-blue-600 cursor-pointer flex flex-row items-center gap-2">
+                  <img src="./assets/images/icons8-github-50.png" class=" w-7 h-7 mt-1 " />
+                  GitHub
+                </p>
               </div>
             </div>
-            <img src="./assets/images/profile.png" class="bg-blue-200 rounded-full w-[250px] h-[230px]" />
+            <img src="./assets/images/pp3-min.png"
+              class="bg-blue-500 w-[230px] h-[230px] rounded-full object-cover bg-clip-border" />
 
           </div>
 
@@ -66,7 +84,13 @@
               <div class="mb-6 border-b border-dashed border-black pb-4">
                 <h5 class=" text-black text-[1.7rem] font-bold">Senior Frontend Engineer</h5>
                 <p ref="metric" class="text-blue-600 font-bold text-[1.3rem]">Metric Gaming </p>
-                <p class="font-bold text-gray-500 text-xl">10/2024 - 02/2025 - Turkey/Remote</p>
+
+                <div class="flex flex-row items-center gap-1">
+
+                  <img src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />
+                  <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1">10/2024
+                    - 02/2025 - Turkey/Remote</p>
+                </div>
                 <p class="font-bold  mt-2 text-[1.3rem]">Bettor Interface - Sportsbook</p>
                 <div class="grid  gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
@@ -90,7 +114,9 @@
 
                 <h4 class=" text-black text-[1.7rem] font-bold">Team Lead / Senior Frontend Developer</h4>
                 <p ref="ezlo" class=" text-blue-600 font-bold text-[1.3rem]">Ezlo Innovation </p>
-                <p class="font-bold text-gray-500 text-xl">06/2019 - 08/2024 - Turkey/Remote</p>
+                <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
+                    src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />06/2019 - 08/2024 -
+                  Turkey/Remote</p>
                 <h5 class="font-bold  mt-2 text-[1.3rem]">Dashboard Configurator</h5>
                 <div class=" gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
@@ -124,7 +150,7 @@
 
 
 
-                    <li>Integrated third-party APIs for data retrieval and interaction.</li>
+                    <li>Integrated third-party REST APIs for data retrieval and interaction.</li>
                     <li>Applied state management using RxJS for efficient data handling and updates.</li>
                   </ul>
                 </div>
@@ -134,11 +160,11 @@
                     <li>Developed a home security application which users can interact with Z-Wave devices for home
                       automation.</li>
                     <li>Created webrtc connections for video livestreaming.</li>
-                    <li>Implemented websocket connections for displaying live data, </li>
+                    <li>Implemented websocket connections with recovery and reconnection logic for displaying live data.
+                    </li>
 
 
-                    <li>Established handling of api requests, websocket connections for displaying live data, webrtc
-                      connections for video livestreaming.</li>
+                    <li>Established handling of REST api requests and state management.</li>
                     <li>Utilized Vue.js, Vuex, Bootstrap, JavaScript, Vue Router, HTML/CSS, and SCSS for frontend
                       development.</li>
                   </ul>
@@ -149,7 +175,8 @@
               <div class="mb-6  border-b border-dashed border-black pb-4">
                 <h4 class=" text-black text-[1.7rem] font-bold">Senior Frontend Developer</h4>
                 <p ref="ginoa" class=" text-blue-600 font-bold text-[1.3rem]">Ginoa</p>
-                <p class="font-bold text-gray-500 text-xl">11/2022 - 04/2023 - Turkey</p>
+                <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
+                    src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />11/2022 - 04/2023 - Turkey</p>
                 <div class=" gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
                     <li>Developed an NFT trading application using React, TypeScript, Tailwind CSS, React Query, and
@@ -168,7 +195,8 @@
               <div class="mb-6  border-b border-dashed border-black pb-4">
                 <h4 class=" text-black text-[1.7rem] font-bold">Frontend Developer</h4>
                 <p ref="nurd" class="text-blue-600 font-bold text-[1.3rem]">Nurd Innovation</p>
-                <p class="font-bold text-gray-500 text-xl">10/2018 - 06/2019 - Turkey</p>
+                <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
+                    src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />10/2018 - 06/2019 - Turkey</p>
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
                   <li>Contributed to a 'Skype-like' cross-platform and web messaging project.</li>
                   <li>Developed new components and conducted unit testing.</li>
@@ -178,7 +206,8 @@
               <div class="mb-6 border-b border-dashed border-black pb-4">
                 <h4 class=" text-black text-[1.7rem] font-bold">Frontend Developer</h4>
                 <p ref="univera" class=" text-blue-600 font-bold text-[1.3rem]">Univera</p>
-                <p class="font-bold text-gray-500 text-xl ">06/2017 - 03/2018 - Turkey</p>
+                <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
+                    src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />06/2017 - 03/2018 - Turkey</p>
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
                   <li>Developed and documented several plugins for an e-commerce application.</li>
                   <li>Created analytics page using google anaytlics data and displayed
@@ -189,7 +218,8 @@
               <div class="mb-6 border-b border-dashed border-black pb-4">
                 <h4 class="text-black text-[1.7rem] font-bold">Junior Frontend Developer</h4>
                 <p ref="delta" class="text-blue-600 font-bold text-[1.3rem]">Delta Smart Technologies </p>
-                <p class="font-bold text-gray-500 text-xl">01/2017 - 06/2018 - Turkey</p>
+                <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
+                    src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />01/2017 - 06/2018 - Turkey</p>
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
                   <li>Created a web-based admin panel for an incident management application used by city halls using
                     Angular, Typescript, RxJs, bootstrap.</li>
@@ -200,11 +230,11 @@
 
             <!-- Right Column: Summary, Skills, Education -->
             <!-- Experience Section -->
-            <div class="p-8 py-6 col-span-4">
+            <div class="p-8 col-span-4">
               <!-- Summary -->
               <div class="mb-6">
                 <h3 class="text-3xl font-bold border-b-4 border-black pb-4">SUMMARY</h3>
-                <p class="text-gray-700 mt-2 font-medium text-xl">
+                <p class="text-gray-700 mt-4 font-medium text-xl">
                   Senior Frontend Engineer / Team Lead with extensive experience leading teams and delivering
                   user-friendly web applications. Skilled in JavaScript frameworks (Vue, React, Angular), and creating
                   responsive User Interfaces. Fluent in English and Turkish, with a focus on continuous learning and
@@ -218,53 +248,56 @@
                   <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4 ">LANGUAGES</h3>
 
                   <ul class="mt-2">
-                    <li class="flex justify-between border-b border-black py-2">
+                    <li class="flex justify-between border-b border-dashed border-black py-4">
                       <span class="font-semibold ">English</span>
-                      <span>Advanced</span>
+                      <span class="text-blue-600 font-bold">Advanced</span>
                     </li>
-                    <li class="flex justify-between border-b border-black py-2">
+                    <li class="flex justify-between border-b border-dashed border-black py-4">
                       <span class="font-semibold ">French</span>
-                      <span>Limited</span>
+                      <span class="text-blue-600 font-bold">Limited</span>
                     </li>
-                    <li class="flex justify-between border-b border-black py-2">
+                    <li class="flex justify-between border-b border-dashed border-black py-4">
                       <span class="font-semibold ">Turkish</span>
-                      <span>Native</span>
+                      <span class="text-blue-600 font-bold">Native</span>
                     </li>
                   </ul>
                 </div>
                 <!-- Skills -->
                 <div class="col-span-8">
                   <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">SKILLS</h3>
-                  <ul
-                    class="flex flex-row flex-wrap gap-8 text-xl gap-2 mt-2 text-gray-600 underline underline-offset-[12px]">
-                    <li class="font-semibold">Vue.js</li>
-                    <li class="font-semibold">React</li>
-                    <li class="font-semibold">Next.js</li>
-                    <li class="font-semibold">TypeScript</li>
-                    <li class="font-semibold">JavaScript ES6</li>
-                    <li class="font-semibold">Single-spa</li>
-                    <li class="font-semibold">AngularJS</li>
-                    <li class="font-semibold">Tailwind CSS</li>
-                    <li class="font-semibold">Bootstrap</li>
-                    <li class="font-semibold">HTML/CSS</li>
-                    <li class="font-semibold">SCSS</li>
-
-                    <li class="font-semibold">Vuex</li>
-                    <li class="font-semibold">Redux</li>
-                    <li class="font-semibold">rtk-query</li>
-                    <li class="font-semibold">react-window</li>
-                    <li class="font-semibold">virtualization</li>
-                    <li class="font-semibold">jenkins</li>
-                    <li class="font-semibold">E2E testing</li>
-                    <li class="font-semibold">Micro frontend</li>
-                    <li class="font-semibold">Playwright</li>
-                    <li class="font-semibold">Npm</li>
-                    <li class="font-semibold">Yarn</li>
-                    <li class="font-semibold">Webpack</li>
-                    <li class="font-semibold">GitHub</li>
-                    <li class="font-semibold">NativeScript</li>
-                    <li class="font-semibold">Best Practices</li>
-                    <li class="font-semibold">Agile</li>
+                  <ul class="flex flex-row flex-wrap gap-8 text-xl gap-2 mt-2 text-gray-600 ">
+                    <li class="font-semibold border-b-3 pb-3">Vue.js</li>
+                    <li class="font-semibold border-b-3 pb-3">React</li>
+                    <li class="font-semibold border-b-3 pb-3">Next.js</li>
+                    <li class="font-semibold border-b-3 pb-3">Nest.js</li>
+                    <li class="font-semibold border-b-3 pb-3">TypeScript</li>
+                    <li class="font-semibold border-b-3 pb-3">JavaScript</li>
+                    <li class="font-semibold border-b-3 pb-3">Node.js</li>
+                    <li class="font-semibold border-b-3 pb-3">Express.js</li>
+                    <li class="font-semibold border-b-3 pb-3">HTML5/CSS3</li>
+                    <li class="font-semibold border-b-3 pb-3">SCSS</li>
+                    <li class="font-semibold border-b-3 pb-3">Tailwind CSS</li>
+                    <li class="font-semibold border-b-3 pb-3">AngularJS</li>
+                    <li class="font-semibold border-b-3 pb-3">Bootstrap</li>
+                    <li class="font-semibold border-b-3 pb-3">Single-spa</li>
+                    <li class="font-semibold border-b-3 pb-3">Micro frontend</li>
+                    <li class="font-semibold border-b-3 pb-3">Vuex</li>
+                    <li class="font-semibold border-b-3 pb-3">Redux</li>
+                    <li class="font-semibold border-b-3 pb-3">rtk-query</li>
+                    <li class="font-semibold border-b-3 pb-3">react-window</li>
+                    <li class="font-semibold border-b-3 pb-3">virtualization</li>
+                    <li class="font-semibold border-b-3 pb-3">jenkins</li>
+                    <li class="font-semibold border-b-3 pb-3">Npm</li>
+                    <li class="font-semibold border-b-3 pb-3">Yarn</li>
+                    <li class="font-semibold border-b-3 pb-3">Webpack</li>
+                    <li class="font-semibold border-b-3 pb-3">Vite</li>
+                    <li class="font-semibold border-b-3 pb-3">GitHub</li>
+                    <li class="font-semibold border-b-3 pb-3">NativeScript</li>
+                    <li class="font-semibold border-b-3 pb-3">Best Practices</li>
+                    <li class="font-semibold border-b-3 pb-3">Agile</li>
+                    <li class="font-semibold border-b-3 pb-3">Event Driven Development</li>
+                    <li class="font-semibold border-b-3 pb-3">Websockets</li>
+                    <li class="font-semibold border-b-3 pb-3">WebRTC</li>
                   </ul>
                 </div>
               </div>
@@ -272,10 +305,10 @@
               <!-- Education -->
               <div class="col-span-8 mt-8">
                 <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">EDUCATION</h3>
-                <p class="text-gray-700 mt-2">
+                <p class="text-gray-700 mt-2 mb-6 text-[1.3rem]">
                   <strong>Izmir Institute of Technology</strong> - Computer Engineering (2012-2017)
                 </p>
-                <p class="text-gray-700 mt-2">
+                <p class="text-gray-700 mt-2 text-[1.3rem]">
                   <strong>Izmir Atatürk High School</strong> - (2007-2012)
                 </p>
               </div>
@@ -347,7 +380,8 @@ const createPdf2 = () => {
   doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf', 'Inter', 'normal');
   doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf', 'Inter', 'bold');
   doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf', 'Inter', 'medium');
-  doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf', 'Inter', 'semibold');
+  // doc.addFont('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf', 'Inter', 'semibold');
+  // doc.addFont('./assets/images/fa-solid-900.ttf', 'fa-solid-900', 'normal');
   // doc.addFont('https://fonts.gstatic.com/s/notoserif/v23/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCjwM0Lhq_Szw.ttf', 'Noto Serif', 'normal');
   // doc.addFont('https://fonts.gstatic.com/s/notoserif/v23/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1ejwM0Lhq_Szw.ttf', 'Noto Serif', 'bold');
 
@@ -379,9 +413,12 @@ const createPdf2 = () => {
 }
 </script>
 <style scoped>
-/* div {
-  font-size: 26px
+/* @font-face {
+  font-family: 'fa-solid-900';
+  src: url('./assets/images/fa-solid-900.ttf')
 } */
+
+
 @font-face {
   font-family: 'Inter';
   src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf') format('truetype');
@@ -400,14 +437,26 @@ const createPdf2 = () => {
   src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf')
 }
 
-@font-face {
+/* @font-face {
   font-weight: 600;
   font-family: 'Inter';
   src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf')
-}
+} */
 
 
+/* .icon::before { */
+/* Set the font for this icon style */
+/* font-family: 'fa-solid-900'; */
+/* Set the weight for this icon style */
+/* font-weight: 900; */
+/* Make sure icons render pixel-perfect */
+/* -webkit-font-smoothing: antialiased; */
+/* Set the Unicode value for the "fa-ghost" icon */
+/* } */
 
+/* .calendar::before {
+  content: '\f073';
+} */
 
 .custom-font-regular {
   font-family: 'Inter';
@@ -426,37 +475,8 @@ const createPdf2 = () => {
   font-weight: 500;
 }
 
-.custom-font-semibold {
+/* .custom-font-semibold {
   font-family: 'Inter';
   font-weight: 600;
-}
-
-
-
-/* @font-face {
-  font-family: 'Noto Serif';
-  src: url('https://fonts.gstatic.com/s/notoserif/v23/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCjwM0Lhq_Szw.ttf') format('truetype');
-  font-weight: 400
-}
-
-
-@font-face {
-  font-family: 'Noto Serif';
-  src: url('https://fonts.gstatic.com/s/notoserif/v23/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZT1ejwM0Lhq_Szw.ttf') format('truetype');
-  font-weight: 700
-}
-
-
-
-.custom-font-regular {
-  font-family: 'Noto Serif';
-  font-size: 16px;
-  color: #555555;
-}
-
-.custom-font-bold {
-  font-family: 'Noto Serif';
-  color: #333333;
-  font-weight: 700
 } */
 </style>
