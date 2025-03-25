@@ -40,7 +40,7 @@
             <div class="flex flex-col justify-between items-start   gap-4 ">
               <div class="flex flex-col gap-1">
                 <h1 class="flex text-5xl  uppercase  custom-font-bold">Efe Güre</h1>
-                <h2 class="text-3xl font-bold text-blue-600">Senior Frontend Developer</h2>
+                <h2 class="text-3xl font-bold text-blue-600">Senior Frontend Engineer</h2>
               </div>
               <div class="flex flex-row gap-4 items-end">
                 <p class="font-bold text-gray-600">+905392757576</p>
@@ -91,7 +91,7 @@
                 <h4 class=" text-black text-[1.7rem] font-bold">Team Lead / Senior Frontend Developer</h4>
                 <p ref="ezlo" class=" text-blue-600 font-bold text-[1.3rem]">Ezlo Innovation </p>
                 <p class="font-bold text-gray-500 text-xl">06/2019 - 08/2024 - Turkey/Remote</p>
-                <h5 class="font-bold text-black mt-2">Dashboard Configurator</h5>
+                <h5 class="font-bold  mt-2 text-[1.3rem]">Dashboard Configurator</h5>
                 <div class=" gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
                     <li>Developed a browser-based interface using Vue.js, Vuex, Bootstrap, JavaScript, Vue Router,
@@ -113,7 +113,7 @@
                     <li>Reduced app bundle size by 40% and resolved significant memory leakage issues.</li>
                   </ul>
                 </div>
-                <h5 class="font-semibold text-black mt-2">MyConstellation</h5>
+                <h5 class="font-bold  mt-2 text-[1.3rem]">MyConstellation</h5>
                 <div class=" gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
                     <li>Created an application for a third-party company enabling users to manage
@@ -128,7 +128,7 @@
                     <li>Applied state management using RxJS for efficient data handling and updates.</li>
                   </ul>
                 </div>
-                <h5 class="font-semibold text-black mt-2">Protect Dashboard</h5>
+                <h5 class="font-bold  mt-2 text-[1.3rem]">Protect Dashboard</h5>
                 <div class=" gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
                     <li>Developed a home security application which users can interact with Z-Wave devices for home
