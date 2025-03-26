@@ -33,7 +33,7 @@
       </div> -->
       <div class=" text-gray-800 justify-self-center">
 
-        <div ref="pdf" class="custom-font-regular bg-white text-2xl p-6max-w-4xl mx-auto bg-white p-8  shadow-lg"
+        <div ref="pdf" class="custom-font-regular bg-white text-2xl p-6max-w-4xl mx-auto bg-white p-8 pb-0 shadow-lg"
           style="width:1875px">
           <!-- Header Section -->
           <div class="flex flex-row  items-center justify-between px-8 py-2">
@@ -94,17 +94,23 @@
                 <p class="font-bold  mt-2 text-[1.3rem]">Bettor Interface - Sportsbook</p>
                 <div class="grid  gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
-                    <li>Migrated various micro frontend applications from webpack to vite bundler and updated the node
+                    <li><span class="font-bold">Increased build performance by %15</span> of various micro frontend
+                      applications by migrating from webpack to
+                      vite bundler and updated the node
                       versions of the applications.</li>
-                    <li>Investigated and solved multiple bugs in different micro front end applications.
+                    <li><span class="font-bold">Investigated and solved multiple bugs</span> in different micro front
+                      end applications.
                     </li>
                     <li>Collaborated on code reviews and task estimations.</li>
-
-                    <li>Improved developer experience by adding css bundling capabilities for applications running
+                    <li><span class="font-bold">Reduced development time</span> by adding css bundling capabilities for
+                      applications running
                       locally using tailwindcss.
                     </li>
-                    <li>Optimized micro frontend applications by moving shared libraries to a helper micro frontend
+                    <li><span class="font-bold">Optimized micro frontend applications</span> by moving shared libraries
+                      to a helper micro frontend
                       application.</li>
+                    <li>Tech stack: Vue.js(3) Composition API, single-spa,TypeScript, tailwind,
+                      SCSS. </li>
 
                   </ul>
                 </div>
@@ -120,23 +126,30 @@
                 <h5 class="font-bold  mt-2 text-[1.3rem]">Dashboard Configurator</h5>
                 <div class=" gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
-                    <li>Developed a browser-based interface using Vue.js, Vuex, Bootstrap, JavaScript, Vue Router,
-                      HTML/CSS, and SCSS.</li>
                     <li>Led technical meetings, sprint planning, task estimation, code reviews and grooming as team
                       lead.
                     </li>
-                    <li>Created UI editor page for designing custom interfaces to control Z-Wave devices, view live IP
+                    <li>Created a UI editor to <span class="font-bold">let users to create custom interfaces</span> to
+                      control
+                      Z-Wave devices, view live IP
                       camera streams, interact with door locks, and monitor sensor values.</li>
-                    <li>Implemented web workers to optimize performance and responsiveness.</li>
-                    <li>Collaborated with backend and mobile teams.</li>
-
-                    <li>Integrated a service worker for caching and Progressive Web App (PWA) functionality.</li>
-                    <li>Utilized virtualization techniques to enhance rendering speed and efficiency by 20%.</li>
-                    <li>Established WebRTC connections for real-time communication.</li>
-                    <li>Implemented WebSocket and REST API requests for data exchange.</li>
-                    <li>Integrated OpenTelemetry logging for monitoring and Bugsnag for error tracking.</li>
-                    <li>Utilized ApexCharts for advanced graphical representations.</li>
-                    <li>Reduced app bundle size by 40% and resolved significant memory leakage issues.</li>
+                    <li>Implemented web workers to<span class="font-bold"> optimize performance and
+                        responsiveness</span>, service worker for <span class="font-bold">caching
+                        and intelligent version upgrades</span>.</li>
+                    <li>Utilized virtualization techniques to <span class="font-bold">enhance rendering speed and
+                        efficiency by 20%</span> .</li>
+                    <li>Established WebRTC connections for <span class="font-bold">real-time video streaming
+                      </span>,WebSocket for <span class="font-bold">event driven live data</span> and REST API requests
+                      for
+                      data exchange.</li>
+                    <li>Integrated OpenTelemetry logging for<span class="font-bold"> monitoring application
+                        health</span> and Bugsnag for
+                      error tracking.</li>
+                    <li><span class="font-bold">Reduced app bundle size by 40%</span> and resolved significant memory
+                      leakage issues.</li>
+                    <li>Tech Stack: Vue.js, Vuex, Bootstrap,
+                      JavaScript, Vue Router,
+                      HTML/CSS, ApexCharts and SCSS.</li>
                   </ul>
                 </div>
                 <h5 class="font-bold  mt-2 text-[1.3rem]">MyConstellation</h5>
@@ -145,13 +158,13 @@
                     <li>Created an application for a third-party company enabling users to manage
                       electricity and
                       natural gas subscriptions, pay bills, access invoices, and interact with their accounts.</li>
-                    <li>Created pages and User Interface components using Vue.js, JavaScript, Bootstrap, and HTML/CSS.
-                    </li>
-
-
-
-                    <li>Integrated third-party REST APIs for data retrieval and interaction.</li>
-                    <li>Applied state management using RxJS for efficient data handling and updates.</li>
+                    <li>Integrated third-party REST APIs for data retrieval and
+                      interaction.</li>
+                    <li>Applied state management using RxJS for efficient data handling
+                      and updates.</li>
+                    <li>Tech Stack: Vue.js, RxJS, Bootstrap,
+                      JavaScript, Vue Router,
+                      HTML/CSS and SCSS.</li>
                   </ul>
                 </div>
                 <h5 class="font-bold  mt-2 text-[1.3rem]">Protect Dashboard</h5>
@@ -159,14 +172,15 @@
                   <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
                     <li>Developed a home security application which users can interact with Z-Wave devices for home
                       automation.</li>
-                    <li>Created webrtc connections for video livestreaming.</li>
-                    <li>Implemented websocket connections with recovery and reconnection logic for displaying live data.
+                    <li>Created WebRTC connections for <span class="font-bold">video livestreaming</span>.</li>
+                    <li>Implemented WebSocket connections with recovery and reconnection
+                      logic for <span class="font-bold">displaying event driven live data</span>.
                     </li>
 
 
                     <li>Established handling of REST api requests and state management.</li>
-                    <li>Utilized Vue.js, Vuex, Bootstrap, JavaScript, Vue Router, HTML/CSS, and SCSS for frontend
-                      development.</li>
+                    <li>Tech Stack: Vue.js, Vuex, Bootstrap, JavaScript, Vue Router,
+                      HTML/CSS, and SCSS.</li>
                   </ul>
                 </div>
 
@@ -174,20 +188,24 @@
 
               <div class="mb-6  border-b border-dashed border-black pb-4">
                 <h4 class=" text-black text-[1.7rem] font-bold">Senior Frontend Developer</h4>
-                <p ref="ginoa" class=" text-blue-600 font-bold text-[1.3rem]">Ginoa</p>
+                <p ref="ginoa" class=" text-blue-600 font-bold text-[1.3rem] flex w-auto w-[120px]">Ginoa</p>
                 <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />11/2022 - 04/2023 - Turkey</p>
                 <div class=" gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
-                    <li>Developed an NFT trading application using React, TypeScript, Tailwind CSS, React Query, and
-                      Redux.</li>
-                    <li>Managed data binding from APIs and displayed data dynamically.</li>
 
-                    <li>Coded high performance, accessible, scalable and browser compatible pages and components that
+                    <li>Managed data binding from REST APIs and displayed data
+                      dynamically.</li>
+
+                    <li>Coded high performance, accessible, scalable and browser compatible pages and components for an
+                      NFT trading application that
                       are
                       in line with
                       industry standarts.</li>
-                    <li>Enhanced performance by adding virtualization to efficiently display thousands of NFTs</li>
+                    <li><span class="font-bold">Enhanced rendering performance by adding virtualization</span> to
+                      efficiently display thousands of NFTs</li>
+                    <li>Tech Stack: React, TypeScript, Tailwind CSS, React Query, and
+                      Redux.</li>
                   </ul>
                 </div>
               </div>
@@ -200,6 +218,7 @@
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
                   <li>Contributed to a 'Skype-like' cross-platform and web messaging project.</li>
                   <li>Developed new components and conducted unit testing.</li>
+                  <li>Tech Stack: Vue, NativeScript, JavaScript Bootstrap, HTML/CSS, SCSS.</li>
                 </ul>
               </div>
 
@@ -210,7 +229,7 @@
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />06/2017 - 03/2018 - Turkey</p>
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
                   <li>Developed and documented several plugins for an e-commerce application.</li>
-                  <li>Created analytics page using google anaytlics data and displayed
+                  <li>Created analytics page using <span class="font-bold">google anaytlics</span> data and displayed
                     detailed graphs.</li>
                   <li>Tech Stack: NopCommerce, C#, .NET, JavaScript, Google Analytics.</li>
                 </ul>
@@ -221,9 +240,9 @@
                 <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />01/2017 - 06/2018 - Turkey</p>
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
-                  <li>Created a web-based admin panel for an incident management application used by city halls using
-                    Angular, Typescript, RxJs, bootstrap.</li>
-                  <li>Collaborated closely with backend and cross-platform developers.</li>
+                  <li>Coded a web-based admin panel for an incident management application used by city halls.</li>
+                  <li>Tech Stack: Angular, RxJS, Bootstrap, TypeScript, Google Maps API,
+                    HTML/CSS, and SCSS.</li>
                 </ul>
               </div>
             </div>
@@ -298,6 +317,7 @@
                     <li class="font-semibold border-b-3 pb-3">Event Driven Development</li>
                     <li class="font-semibold border-b-3 pb-3">Websockets</li>
                     <li class="font-semibold border-b-3 pb-3">WebRTC</li>
+                    <li class="font-semibold border-b-3 pb-3">Web3</li>
                   </ul>
                 </div>
               </div>
@@ -312,6 +332,17 @@
                   <strong>Izmir Atatürk High School</strong> - (2007-2012)
                 </p>
               </div>
+              <!-- <div class="col-span-8 mt-8">
+                <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">PERSONAL PROJECTS</h3>
+                <ul class="mt-2">
+                  <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
+                    <span ref="resume" class="font-semibold text-blue-600">ResumeCreator</span>
+                    <span class="text-base">The project I used to create this resume. Tech Stack: Nuxt, Vue.js
+                      Composition API, tailwind, SSR</span>
+                  </li>
+
+                </ul>
+              </div> -->
             </div>
           </div>
         </div>
@@ -355,6 +386,7 @@ const ginoa = useTemplateRef("ginoa")
 const univera = useTemplateRef("univera")
 const delta = useTemplateRef("delta")
 const pdf = useTemplateRef("pdf")
+// const resume = useTemplateRef("resume")
 
 const createPdf2 = () => {
 
@@ -399,12 +431,15 @@ const createPdf2 = () => {
         , { el: ezlo.value.getBoundingClientRect(), url: "https://www.ezlo.com/" }
         , { el: metric.value.getBoundingClientRect(), url: "https://www.metricgaming.com/" }
         , { el: nurd.value.getBoundingClientRect(), url: "https://www.nurd.com/" }
-        , { el: ginoa.value.getBoundingClientRect(), url: "https://app.ginoa.io/" }
+        , { el: ginoa.value.getBoundingClientRect(), url: "https://www.linkedin.com/company/ginoa.io" }
         , { el: univera.value.getBoundingClientRect(), url: "https://univera.com.tr/" }
-        , { el: delta.value.getBoundingClientRect(), url: "https://deltasmart.tech/en/home/" }].forEach(({ el, url }) => {
-          doc_e.link((el.x - el.width) * 0.317 + 5, (el.y - el.height * 3) * 0.317 - 2, el.width * 0.317, el.height * 0.317, { url });
-
-        })
+        , { el: delta.value.getBoundingClientRect(), url: "https://deltasmart.tech/en/home/" },
+        // { el: resume.value.getBoundingClientRect(), url: "https://github.com/efegure/ResumeCreator/tree/nuxt-3" }
+      ].forEach(({ el, url }) => {
+        doc_e.link((el.x) * 0.317, (el.y - el.height * 1.5) * 0.317, el.width * 0.317, el.height * 0.317, { url });
+        // for debugging
+        // doc_e.rect((el.x) * 0.317, (el.y - el.height * 1.5) * 0.317, el.width * 0.317, el.height * 0.317, 'f');
+      })
       doc_e.save("ats-resume-2024.pdf");
     }
   });
