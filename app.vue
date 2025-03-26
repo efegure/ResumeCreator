@@ -437,7 +437,7 @@ const createPdf2 = () => {
         // { el: resume.value.getBoundingClientRect(), url: "https://github.com/efegure/ResumeCreator/tree/nuxt-3" }
       ].forEach(({ el, url }) => {
         doc_e.link((el.x) * 0.317, (el.y - el.height * 1.5) * 0.317, el.width * 0.317, el.height * 0.317, { url });
-        // for debugging
+        // for debugging works wiith chrome zoom
         // doc_e.rect((el.x) * 0.317, (el.y - el.height * 1.5) * 0.317, el.width * 0.317, el.height * 0.317, 'f');
       })
       doc_e.save("ats-resume-2024.pdf");
