@@ -101,7 +101,7 @@
                     <li><span class="font-bold">Investigated and solved multiple bugs</span> in different micro front
                       end applications.
                     </li>
-                    <li>Collaborated on code reviews and task estimations.</li>
+                    <li>Conducted code reviews and task estimations.</li>
                     <li><span class="font-bold">Reduced development time</span> by adding css bundling capabilities for
                       applications running
                       locally using tailwindcss.
@@ -109,7 +109,7 @@
                     <li><span class="font-bold">Optimized micro frontend applications</span> by moving shared libraries
                       to a helper micro frontend
                       application.</li>
-                    <li>Tech stack: Vue.js(3) Composition API, single-spa,TypeScript, tailwind,
+                    <li>Tech stack: Vue.js(3) Composition API, Single-spa, TypeScript, Tailwind CSS,
                       SCSS. </li>
 
                   </ul>
@@ -126,13 +126,13 @@
                 <h5 class="font-bold  mt-2 text-[1.3rem]">Dashboard Configurator</h5>
                 <div class=" gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
-                    <li>Led technical meetings, sprint planning, task estimation, code reviews and grooming as team
-                      lead.
+                    <li>Led a frontend team, managing sprint planning, estimations, code reviews, and technical
+                      meetings.
                     </li>
-                    <li>Created a UI editor to <span class="font-bold">let users to create custom interfaces</span> to
+                    <li>Created <strong>a dynamic UI editor for users to create custom interfaces</strong> to
                       control
-                      Z-Wave devices, view live IP
-                      camera streams, interact with door locks, and monitor sensor values.</li>
+                      Z-Wave devices, streaming live IP cameras, interact with door locks, and monitor real-time sensor
+                      data.</li>
                     <li>Implemented web workers to<span class="font-bold"> optimize performance and
                         responsiveness</span>, service worker for <span class="font-bold">caching
                         and intelligent version upgrades</span>.</li>
@@ -145,8 +145,9 @@
                     <li>Integrated OpenTelemetry logging for<span class="font-bold"> monitoring application
                         health</span> and Bugsnag for
                       error tracking.</li>
-                    <li><span class="font-bold">Reduced app bundle size by 40%</span> and resolved significant memory
-                      leakage issues.</li>
+                    <li>Reduced memory leakage issues, <strong>optimized application bundle size by 40%</strong> by
+                      applying webpack
+                      optimizations.</li>
                     <li>Tech Stack: Vue.js, Vuex, Bootstrap,
                       JavaScript, Vue Router,
                       HTML/CSS, ApexCharts and SCSS.</li>
@@ -253,11 +254,11 @@
               <!-- Summary -->
               <div class="mb-6">
                 <h3 class="text-3xl font-bold border-b-4 border-black pb-4">SUMMARY</h3>
-                <p class="text-gray-700 mt-4 font-medium text-xl">
+                <p class="text-gray-700 mt-4 font-medium text-lg">
                   Senior Frontend Engineer / Team Lead with extensive experience leading teams and delivering
-                  user-friendly web applications. Skilled in JavaScript frameworks (Vue, React, Angular), and creating
-                  responsive User Interfaces. Fluent in English and Turkish, with a focus on continuous learning and
-                  innovation.
+                  user-friendly web applications. Expertise in modern JavaScript frameworks (Vue.js, React, Angular),
+                  micro-frontend architecture, and real-time systems. Strong focus on performance optimization, clean
+                  code practices, and team leadership in Agile environments. Fluent in English and Turkish.
                 </p>
               </div>
 
@@ -291,6 +292,7 @@
                     <li class="font-semibold border-b-3 pb-3">Nest.js</li>
                     <li class="font-semibold border-b-3 pb-3">TypeScript</li>
                     <li class="font-semibold border-b-3 pb-3">JavaScript</li>
+                    <li class="font-semibold border-b-3 pb-3">EcmaScript</li>
                     <li class="font-semibold border-b-3 pb-3">Node.js</li>
                     <li class="font-semibold border-b-3 pb-3">Express.js</li>
                     <li class="font-semibold border-b-3 pb-3">HTML5/CSS3</li>
@@ -325,11 +327,13 @@
               <!-- Education -->
               <div class="col-span-8 mt-8">
                 <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">EDUCATION</h3>
-                <p class="text-gray-700 mt-2 mb-6 text-[1.3rem]">
-                  <strong>Izmir Institute of Technology</strong> - Computer Engineering (2012-2017)
+                <p class="text-gray-700 mt-2 mb-6 text-[1.3rem] flex flex-col">
+                  <strong>Bachelor’s Degree in Computer Engineering</strong>
+                  <span>Izmir Institute of Technology | 2012 – 2017</span>
                 </p>
-                <p class="text-gray-700 mt-2 text-[1.3rem]">
-                  <strong>Izmir Atatürk High School</strong> - (2007-2012)
+                <p class="text-gray-700 mt-2 text-[1.3rem] flex flex-col">
+                  <strong>High School Diploma</strong>
+                  <span>Izmir Atatürk High School | 2007 – 2012</span>
                 </p>
               </div>
               <!-- <div class="col-span-8 mt-8">
