@@ -94,19 +94,19 @@
                 <p class="font-bold  mt-2 text-[1.3rem]">Bettor Interface - Sportsbook</p>
                 <div class="grid  gap-6">
                   <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
-                    <li><span class="font-bold">Increased build performance by %15</span> of various micro frontend
+                    <li>Increased build performance by %15 of various micro frontend
                       applications by migrating from webpack to
                       vite bundler and updated the node
                       versions of the applications.</li>
-                    <li><span class="font-bold">Investigated and solved multiple bugs</span> in different micro front
+                    <li>Investigated and solved multiple bugs in different micro front
                       end applications.
                     </li>
                     <li>Conducted code reviews and task estimations.</li>
-                    <li><span class="font-bold">Reduced development time</span> by adding css bundling capabilities for
+                    <li>Reduced development time by adding css bundling capabilities for
                       applications running
                       locally using tailwindcss.
                     </li>
-                    <li><span class="font-bold">Optimized micro frontend applications</span> by moving shared libraries
+                    <li>Optimized micro frontend applications by moving shared libraries
                       to a helper micro frontend
                       application.</li>
                     <li>Tech stack: Vue.js(3) Composition API, Single-spa, TypeScript, Tailwind CSS,
@@ -129,23 +129,23 @@
                     <li>Led a frontend team, managing sprint planning, estimations, code reviews, and technical
                       meetings.
                     </li>
-                    <li>Created <strong>a dynamic UI editor for users to create custom interfaces</strong> to
+                    <li>Created a dynamic UI editor for users to create custom interfaces to
                       control
                       Z-Wave devices, streaming live IP cameras, interact with door locks, and monitor real-time sensor
                       data.</li>
-                    <li>Implemented web workers to<span class="font-bold"> optimize performance and
-                        responsiveness</span>, service worker for <span class="font-bold">caching
-                        and intelligent version upgrades</span>.</li>
-                    <li>Utilized virtualization techniques to <span class="font-bold">enhance rendering speed and
-                        efficiency by 20%</span> .</li>
-                    <li>Established WebRTC connections for <span class="font-bold">real-time video streaming
-                      </span>,WebSocket for <span class="font-bold">event driven live data</span> and REST API requests
+                    <li>Implemented web workers to optimize performance and
+                      responsiveness, service worker for caching
+                      and intelligent version upgrades.</li>
+                    <li>Utilized virtualization techniques to enhance rendering speed and
+                      efficiency by 20% .</li>
+                    <li>Established WebRTC connections for real-time video streaming
+                      ,WebSocket for event driven live data and REST API requests
                       for
                       data exchange.</li>
-                    <li>Integrated OpenTelemetry logging for<span class="font-bold"> monitoring application
-                        health</span> and Bugsnag for
+                    <li>Integrated OpenTelemetry logging for monitoring application
+                      health and Bugsnag for
                       error tracking.</li>
-                    <li>Reduced memory leakage issues, <strong>optimized application bundle size by 40%</strong> by
+                    <li>Reduced memory leakage issues, optimized application bundle size by 40% by
                       applying webpack
                       optimizations.</li>
                     <li>Tech Stack: Vue.js, Vuex, Bootstrap,
@@ -173,9 +173,9 @@
                   <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
                     <li>Developed a home security application which users can interact with Z-Wave devices for home
                       automation.</li>
-                    <li>Created WebRTC connections for <span class="font-bold">video livestreaming</span>.</li>
+                    <li>Created WebRTC connections for video livestreaming.</li>
                     <li>Implemented WebSocket connections with recovery and reconnection
-                      logic for <span class="font-bold">displaying event driven live data</span>.
+                      logic for displaying event driven live data.
                     </li>
 
 
@@ -203,7 +203,7 @@
                       are
                       in line with
                       industry standarts.</li>
-                    <li><span class="font-bold">Enhanced rendering performance by adding virtualization</span> to
+                    <li>Enhanced rendering performance by adding virtualization to
                       efficiently display thousands of NFTs</li>
                     <li>Tech Stack: React, TypeScript, Tailwind CSS, React Query, and
                       Redux.</li>
@@ -230,7 +230,7 @@
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />06/2017 - 03/2018 - Turkey</p>
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
                   <li>Developed and documented several plugins for an e-commerce application.</li>
-                  <li>Created analytics page using <span class="font-bold">google anaytlics</span> data and displayed
+                  <li>Created analytics page using google anayltics data and displayed
                     detailed graphs.</li>
                   <li>Tech Stack: NopCommerce, C#, .NET, JavaScript, Google Analytics.</li>
                 </ul>
@@ -241,7 +241,8 @@
                 <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />01/2017 - 06/2018 - Turkey</p>
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
-                  <li>Coded a web-based admin panel for an incident management application used by city halls.</li>
+                  <li>Developed a web-based admin panel for an incident management system used by city municipalities.
+                  </li>
                   <li>Tech Stack: Angular, RxJS, Bootstrap, TypeScript, Google Maps API,
                     HTML/CSS, and SCSS.</li>
                 </ul>
