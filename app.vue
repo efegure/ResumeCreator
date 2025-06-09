@@ -117,8 +117,61 @@
 
               </div>
               <div class="mb-6 border-b border-dashed border-black pb-4">
+                <h5 class=" text-black text-[1.7rem] font-bold">Senior Frontend Engineer(Freelance)</h5>
+                <p ref="metric" class="text-blue-600 font-bold text-[1.3rem]">SYPR Software (Startup) </p>
 
-                <h4 class=" text-black text-[1.7rem] font-bold">Team Lead / Senior Frontend Developer</h4>
+                <div class="flex flex-row items-center gap-1">
+
+                  <img src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />
+                  <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1">01/2024 - Present - Turkey/Remote</p>
+                </div>
+                <p class="font-bold  mt-2 text-[1.3rem]">Blog Builder</p>
+                <div class="grid  gap-6">
+                  <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
+                    <li>Created an SEO friendly Blog builder application with switchable themes for header,footer and blog posts.</li>
+                    <li>Utilized SSR and SSG capabilities with dynamic imports to improve performance.</li>
+                    <li>Implemented SEO friendly routing and meta tags.</li>
+                    <li>Tech Stack: Next.js, React, TypeScript, Tailwind CSS, Redux.</li>
+                  </ul>
+                </div>
+                <p class="font-bold  mt-2 text-[1.3rem]">VPN Application</p>
+                <div class="grid  gap-6">
+                  <ul class="list-disc ml-5 text-gray-700 mt-2  text-lg">
+                    <li>Created a mobile VPN application.</li>
+                    <li>Wrote a turbo module for vpn connection in iOS using Swift.</li>
+                    <li>Implemented page navigations, layouts and components using React Native.</li>
+                    <li>Integrated business logic using redux.</li>
+                    <li>Tech Stack: React Native, Typescript, Tailwind CSS, Nativewind, Redux, Supabase, shadcn-ui.</li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="mb-6  border-b border-dashed border-black pb-4">
+                <h4 class=" text-black text-[1.7rem] font-bold">Senior Frontend Developer(Contractor)</h4>
+                <p ref="ginoa" class=" text-blue-600 font-bold text-[1.3rem] flex w-auto w-[120px]">Ginoa</p>
+                <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
+                    src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />11/2022 - 04/2023 - Turkey</p>
+                <div class=" gap-6">
+                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
+
+                    <li>Managed data binding from REST APIs and displayed data
+                      dynamically.</li>
+
+                    <li>Coded high performance, accessible, scalable and browser compatible pages and components for an
+                      NFT trading application that
+                      are
+                      in line with
+                      industry standarts.</li>
+                    <li>Enhanced rendering performance by adding virtualization to
+                      efficiently display thousands of NFTs</li>
+                    <li>Tech Stack: React, TypeScript, Tailwind CSS, React Query, and
+                      Redux.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mb-6 border-b border-dashed border-black pb-4">
+
+                <h4 class=" text-black text-[1.7rem] font-bold">Team Lead / Senior Frontend Engineer</h4>
                 <p ref="ezlo" class=" text-blue-600 font-bold text-[1.3rem]">Ezlo Innovation </p>
                 <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />06/2019 - 08/2024 -
@@ -187,32 +240,10 @@
 
               </div>
 
-              <div class="mb-6  border-b border-dashed border-black pb-4">
-                <h4 class=" text-black text-[1.7rem] font-bold">Senior Frontend Developer</h4>
-                <p ref="ginoa" class=" text-blue-600 font-bold text-[1.3rem] flex w-auto w-[120px]">Ginoa</p>
-                <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
-                    src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />11/2022 - 04/2023 - Turkey</p>
-                <div class=" gap-6">
-                  <ul class="list-disc ml-5 text-gray-700 mt-2 col-span-1 text-lg">
 
-                    <li>Managed data binding from REST APIs and displayed data
-                      dynamically.</li>
-
-                    <li>Coded high performance, accessible, scalable and browser compatible pages and components for an
-                      NFT trading application that
-                      are
-                      in line with
-                      industry standarts.</li>
-                    <li>Enhanced rendering performance by adding virtualization to
-                      efficiently display thousands of NFTs</li>
-                    <li>Tech Stack: React, TypeScript, Tailwind CSS, React Query, and
-                      Redux.</li>
-                  </ul>
-                </div>
-              </div>
 
               <div class="mb-6  border-b border-dashed border-black pb-4">
-                <h4 class=" text-black text-[1.7rem] font-bold">Frontend Developer</h4>
+                <h4 class=" text-black text-[1.7rem] font-bold">Frontend Engineer</h4>
                 <p ref="nurd" class="text-blue-600 font-bold text-[1.3rem]">Nurd Innovation</p>
                 <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />10/2018 - 06/2019 - Turkey</p>
@@ -224,7 +255,7 @@
               </div>
 
               <div class="mb-6 border-b border-dashed border-black pb-4">
-                <h4 class=" text-black text-[1.7rem] font-bold">Frontend Developer</h4>
+                <h4 class=" text-black text-[1.7rem] font-bold">Frontend Engineer</h4>
                 <p ref="univera" class=" text-blue-600 font-bold text-[1.3rem]">Univera</p>
                 <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />06/2017 - 03/2018 - Turkey</p>
@@ -236,7 +267,7 @@
                 </ul>
               </div>
               <div class="mb-6 border-b border-dashed border-black pb-4">
-                <h4 class="text-black text-[1.7rem] font-bold">Junior Frontend Developer</h4>
+                <h4 class="text-black text-[1.7rem] font-bold">Junior Frontend Engineer</h4>
                 <p ref="delta" class="text-blue-600 font-bold text-[1.3rem]">Delta Smart Technologies </p>
                 <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />01/2017 - 06/2018 - Turkey</p>
@@ -289,13 +320,13 @@
                   <ul class="flex flex-row flex-wrap gap-8 text-xl gap-2 mt-2 text-gray-600 ">
                     <li class="font-semibold border-b-3 pb-3">Vue.js</li>
                     <li class="font-semibold border-b-3 pb-3">React</li>
+                    <li class="font-semibold border-b-3 pb-3">React Native</li>
                     <li class="font-semibold border-b-3 pb-3">Next.js</li>
+                    <li class="font-semibold border-b-3 pb-3">Nuxt.js</li>
                     <li class="font-semibold border-b-3 pb-3">Nest.js</li>
                     <li class="font-semibold border-b-3 pb-3">TypeScript</li>
                     <li class="font-semibold border-b-3 pb-3">JavaScript</li>
                     <li class="font-semibold border-b-3 pb-3">EcmaScript</li>
-                    <li class="font-semibold border-b-3 pb-3">Node.js</li>
-                    <li class="font-semibold border-b-3 pb-3">Express.js</li>
                     <li class="font-semibold border-b-3 pb-3">HTML5/CSS3</li>
                     <li class="font-semibold border-b-3 pb-3">SCSS</li>
                     <li class="font-semibold border-b-3 pb-3">Tailwind CSS</li>
@@ -337,17 +368,29 @@
                   <span>Izmir Atatürk High School | 2007 – 2012</span>
                 </p>
               </div>
-              <!-- <div class="col-span-8 mt-8">
+              <div class="col-span-8 mt-8">
                 <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">PERSONAL PROJECTS</h3>
                 <ul class="mt-2">
                   <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
-                    <span ref="resume" class="font-semibold text-blue-600">ResumeCreator</span>
+                    <span ref="personalProjects-1" class="font-semibold text-blue-600">ResumeCreator</span>
                     <span class="text-base">The project I used to create this resume. Tech Stack: Nuxt, Vue.js
                       Composition API, tailwind, SSR</span>
                   </li>
-
+                  <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
+                    <span ref="personalProjects-2" class="font-semibold text-blue-600">Nestjs Example</span>
+                    <span class="text-base">Basic Nestjs Example, Tech Stack: Nestjs, TypeScript, Express, TypeORM</span>
+                  </li>
+                  <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
+                    <span ref="personalProjects-3" class="font-semibold text-blue-600">Plant Management</span>
+                    <span class="text-base">Basic Nextjs Example that you can do CRUD operations on plants, Tech Stack: Nextjs, TypeScript, React, Tailwind</span>
+                  </li>
+                  <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
+                    <span ref="personalProjects-4" class="font-semibold text-blue-600">Product CRUD Example</span>
+                    <span class="text-base">Basic react example that lets you do CRUD operations for users and products. Tech Stack: React, TypeScript, Tailwind, faker.js, msw, redux.</span>
+                  </li>
+                  
                 </ul>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -391,6 +434,10 @@ const ginoa = useTemplateRef("ginoa")
 const univera = useTemplateRef("univera")
 const delta = useTemplateRef("delta")
 const pdf = useTemplateRef("pdf")
+const personalProjects1 = useTemplateRef("personalProjects-1")
+const personalProjects2 = useTemplateRef("personalProjects-2")
+const personalProjects3 = useTemplateRef("personalProjects-3")
+const personalProjects4 = useTemplateRef("personalProjects-4")
 // const resume = useTemplateRef("resume")
 
 const createPdf2 = () => {
@@ -427,6 +474,7 @@ const createPdf2 = () => {
       scale: 0.317, // default is window.devicePixelRatio
       dpi: 192,  // Reduces dots per inch for faster rendering
       useCORS: true  // Ensures that resources are handled efficiently,
+      
     },
     doc,
     callback: function (doc_e) {
@@ -439,6 +487,10 @@ const createPdf2 = () => {
         , { el: ginoa.value.getBoundingClientRect(), url: "https://www.linkedin.com/company/ginoa.io" }
         , { el: univera.value.getBoundingClientRect(), url: "https://univera.com.tr/" }
         , { el: delta.value.getBoundingClientRect(), url: "https://deltasmart.tech/en/home/" },
+        { el: personalProjects1.value.getBoundingClientRect(), url: "https://github.com/efegure/ResumeCreator" },
+        { el: personalProjects2.value.getBoundingClientRect(), url: "https://github.com/efegure/nestjs-example" },
+        { el: personalProjects3.value.getBoundingClientRect(), url: "https://github.com/efegure/nextjs-example" },
+        { el: personalProjects4.value.getBoundingClientRect(), url: "https://github.com/efegure/react-example" },
         // { el: resume.value.getBoundingClientRect(), url: "https://github.com/efegure/ResumeCreator/tree/nuxt-3" }
       ].forEach(({ el, url }) => {
         doc_e.link((el.x) * 0.317, (el.y - el.height * 1.5) * 0.317, el.width * 0.317, el.height * 0.317, { url });
