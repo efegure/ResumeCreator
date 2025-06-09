@@ -118,7 +118,7 @@
               </div>
               <div class="mb-6 border-b border-dashed border-black pb-4">
                 <h5 class=" text-black text-[1.7rem] font-bold">Senior Frontend Engineer(Freelance)</h5>
-                <p ref="metric" class="text-blue-600 font-bold text-[1.3rem]">SYPR Software (Startup) </p>
+                <p  class="text-blue-600 font-bold text-[1.3rem]">SYPR Software (Startup) </p>
 
                 <div class="flex flex-row items-center gap-1">
 
@@ -147,7 +147,7 @@
 
               </div>
               <div class="mb-6  border-b border-dashed border-black pb-4">
-                <h4 class=" text-black text-[1.7rem] font-bold">Senior Frontend Developer(Contractor)</h4>
+                <h4 class=" text-black text-[1.7rem] font-bold">Senior Frontend Engineer(Contractor)</h4>
                 <p ref="ginoa" class=" text-blue-600 font-bold text-[1.3rem] flex w-auto w-[120px]">Ginoa</p>
                 <p class="font-bold text-gray-500 text-xl flex flex-row items-center gap-1"><img
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />11/2022 - 04/2023 - Turkey</p>
@@ -157,8 +157,8 @@
                     <li>Managed data binding from REST APIs and displayed data
                       dynamically.</li>
 
-                    <li>Coded high performance, accessible, scalable and browser compatible pages and components for an
-                      NFT trading application that
+                    <li>Engineered a high performance, accessible, scalable and browser compatible trading interface for an
+                      NFT platform that
                       are
                       in line with
                       industry standarts.</li>
@@ -261,7 +261,7 @@
                     src="./assets/images/icons8-calendar-96.png" class="w-6 h-6 mt-3" />06/2017 - 03/2018 - Turkey</p>
                 <ul class="list-disc ml-5 text-gray-700 mt-2 text-lg">
                   <li>Developed and documented several plugins for an e-commerce application.</li>
-                  <li>Created analytics page using google anayltics data and displayed
+                  <li>Created analytics page using google analytics data and displayed
                     detailed graphs.</li>
                   <li>Tech Stack: NopCommerce, C#, .NET, JavaScript, Google Analytics.</li>
                 </ul>
@@ -317,42 +317,116 @@
                 <!-- Skills -->
                 <div class="col-span-8">
                   <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">SKILLS</h3>
-                  <ul class="flex flex-row flex-wrap gap-8 text-xl gap-2 mt-2 text-gray-600 ">
-                    <li class="font-semibold border-b-3 pb-3">Vue.js</li>
-                    <li class="font-semibold border-b-3 pb-3">React</li>
-                    <li class="font-semibold border-b-3 pb-3">React Native</li>
-                    <li class="font-semibold border-b-3 pb-3">Next.js</li>
-                    <li class="font-semibold border-b-3 pb-3">Nuxt.js</li>
-                    <li class="font-semibold border-b-3 pb-3">Nest.js</li>
-                    <li class="font-semibold border-b-3 pb-3">TypeScript</li>
-                    <li class="font-semibold border-b-3 pb-3">JavaScript</li>
-                    <li class="font-semibold border-b-3 pb-3">EcmaScript</li>
-                    <li class="font-semibold border-b-3 pb-3">HTML5/CSS3</li>
-                    <li class="font-semibold border-b-3 pb-3">SCSS</li>
-                    <li class="font-semibold border-b-3 pb-3">Tailwind CSS</li>
-                    <li class="font-semibold border-b-3 pb-3">AngularJS</li>
-                    <li class="font-semibold border-b-3 pb-3">Bootstrap</li>
-                    <li class="font-semibold border-b-3 pb-3">Single-spa</li>
-                    <li class="font-semibold border-b-3 pb-3">Micro frontend</li>
-                    <li class="font-semibold border-b-3 pb-3">Vuex</li>
-                    <li class="font-semibold border-b-3 pb-3">Redux</li>
-                    <li class="font-semibold border-b-3 pb-3">rtk-query</li>
-                    <li class="font-semibold border-b-3 pb-3">react-window</li>
-                    <li class="font-semibold border-b-3 pb-3">virtualization</li>
-                    <li class="font-semibold border-b-3 pb-3">jenkins</li>
-                    <li class="font-semibold border-b-3 pb-3">Npm</li>
-                    <li class="font-semibold border-b-3 pb-3">Yarn</li>
-                    <li class="font-semibold border-b-3 pb-3">Webpack</li>
-                    <li class="font-semibold border-b-3 pb-3">Vite</li>
-                    <li class="font-semibold border-b-3 pb-3">GitHub</li>
-                    <li class="font-semibold border-b-3 pb-3">NativeScript</li>
-                    <li class="font-semibold border-b-3 pb-3">Best Practices</li>
-                    <li class="font-semibold border-b-3 pb-3">Agile</li>
-                    <li class="font-semibold border-b-3 pb-3">Event Driven Development</li>
-                    <li class="font-semibold border-b-3 pb-3">Websockets</li>
-                    <li class="font-semibold border-b-3 pb-3">WebRTC</li>
-                    <li class="font-semibold border-b-3 pb-3">Web3</li>
-                  </ul>
+                  
+                  <!-- Frontend Frameworks & Libraries -->
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">Frontend Frameworks & Libraries</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">Vue.js</li>
+                      <li class="font-semibold border-b-2 pb-1">React</li>
+                      <li class="font-semibold border-b-2 pb-1">Nuxt.js</li>
+                      <li class="font-semibold border-b-2 pb-1">Next.js</li>
+                      <li class="font-semibold border-b-2 pb-1">Angular</li>
+                    </ul>
+                  </div>
+
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">Mobile Development</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">React Native</li>
+                      <li class="font-semibold border-b-2 pb-1">Turbo Modules</li>
+                      <li class="font-semibold border-b-2 pb-1">NativeScript</li>
+                    </ul>
+                  </div>
+
+                  <!-- Languages -->
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">Languages & Core Technologies</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">TypeScript</li>
+                      <li class="font-semibold border-b-2 pb-1">JavaScript</li>
+                      <li class="font-semibold border-b-3 pb-3">ES6+</li>
+                      <li class="font-semibold border-b-2 pb-1">HTML5/CSS3</li>
+                    </ul>
+                  </div>
+
+                  <!-- State Management -->
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">State Management</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">Vuex</li>
+                      <li class="font-semibold border-b-2 pb-1">Redux Toolkit</li>
+                      <li class="font-semibold border-b-2 pb-1">RTK/Tanstack Query</li>
+                      <li class="font-semibold border-b-2 pb-1">Pinia</li>
+                      <li class="font-semibold border-b-2 pb-1">RxJS</li>
+                    </ul>
+                  </div>
+
+                  
+
+                  <!-- Styling -->
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">UI & Styling</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">Tailwind CSS</li>
+                      <li class="font-semibold border-b-2 pb-1">SCSS</li>
+                      <li class="font-semibold border-b-2 pb-1">Bootstrap</li>
+                      <li class="font-semibold border-b-2 pb-1">shadcn-ui</li>
+                      <li class="font-semibold border-b-2 pb-1">headless-ui</li>
+                      <li class="font-semibold border-b-2 pb-1">nativewind</li>
+                    </ul>
+                  </div>
+
+                  <!-- Build Tools & Package Managers -->
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">Build Tools & Package Managers</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">Webpack</li>
+                      <li class="font-semibold border-b-2 pb-1">Vite</li>
+                      <li class="font-semibold border-b-2 pb-1">NPM</li>
+                      <li class="font-semibold border-b-2 pb-1">Yarn</li>
+                    </ul>
+                  </div>
+
+                  <!-- Architecture & Concepts -->
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">Architecture & Integration</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">Micro Frontend</li>
+                      <li class="font-semibold border-b-2 pb-1">Single-spa</li>
+                      <li class="font-semibold border-b-2 pb-1">Event Driven</li>
+                      <li class="font-semibold border-b-2 pb-1">WebSockets</li>
+                      <li class="font-semibold border-b-2 pb-1">WebRTC</li>
+                      <li class="font-semibold border-b-2 pb-1">SSG / SSR</li>
+                      <li class="font-semibold border-b-2 pb-1">REST APIs</li>
+                    </ul>
+                  </div>
+
+                  <!-- Performance -->
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">Performance & Optimization</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">Virtualization</li>
+                      <li class="font-semibold border-b-2 pb-1">React Window</li>
+                      <li class="font-semibold border-b-2 pb-1">Web Workers</li>
+                      <li class="font-semibold border-b-2 pb-1">Service Workers</li>
+                      <li class="font-semibold border-b-2 pb-1">Bundle Optimization</li>
+                    </ul>
+                  </div>
+
+                  <!-- DevOps & Tools -->
+                  <div class="mb-4">
+                    <h4 class="text-xl font-bold mb-2 text-blue-600">DevOps & Tools</h4>
+                    <ul class="flex flex-row flex-wrap gap-4 text-lg mt-2 text-gray-700">
+                      <li class="font-semibold border-b-2 pb-1">GitHub</li>
+                      <li class="font-semibold border-b-2 pb-1">Jenkins</li>
+                      <li class="font-semibold border-b-2 pb-1">Agile/Scrum</li>
+                      <li class="font-semibold border-b-2 pb-1">Code Reviews</li>
+                      <li class="font-semibold border-b-2 pb-1">Unit Testing</li>
+                      <li class="font-semibold border-b-2 pb-1">End-to-End Testing</li>
+                    </ul>
+                  </div>
+
                 </div>
               </div>
 
@@ -368,8 +442,8 @@
                   <span>Izmir Atatürk High School | 2007 – 2012</span>
                 </p>
               </div>
-              <div class="col-span-8 mt-8">
-                <h3 class="text-3xl font-bold mb-4 border-b-4 border-black pb-4">PERSONAL PROJECTS</h3>
+              <div class="col-span-8 mt-12">
+                <h3 class="text-2xl font-bold mb-4 border-b-4 border-black pb-4">PERSONAL PROJECTS</h3>
                 <ul class="mt-2">
                   <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
                     <span ref="personalProjects-1" class="font-semibold text-blue-600">ResumeCreator</span>
@@ -378,15 +452,15 @@
                   </li>
                   <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
                     <span ref="personalProjects-2" class="font-semibold text-blue-600">Nestjs Example</span>
-                    <span class="text-base">Basic Nestjs Example, Tech Stack: Nestjs, TypeScript, Express, TypeORM</span>
+                    <span class="text-base">Basic Nestjs Example, Tech Stack: Nestjs, TypeScript, Express, TypeORM, PostgreSQL</span>
                   </li>
                   <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
                     <span ref="personalProjects-3" class="font-semibold text-blue-600">Plant Management</span>
-                    <span class="text-base">Basic Nextjs Example that you can do CRUD operations on plants, Tech Stack: Nextjs, TypeScript, React, Tailwind</span>
+                    <span class="text-base">Fullstack Nextjs Example that you can do CRUD operations on plants, Tech Stack: Nextjs, TypeScript, React, Tailwind, Docker, PostgreSQL, prisma</span>
                   </li>
                   <li class="flex flex-col justify-between border-b border-dashed border-black py-4">
                     <span ref="personalProjects-4" class="font-semibold text-blue-600">Product CRUD Example</span>
-                    <span class="text-base">Basic react example that lets you do CRUD operations for users and products. Tech Stack: React, TypeScript, Tailwind, faker.js, msw, redux.</span>
+                    <span class="text-base">React Example that lets you do CRUD operations for users and products. Tech Stack: React, TypeScript, Tailwind, faker.js, msw, redux.</span>
                   </li>
                   
                 </ul>
@@ -442,9 +516,7 @@ const personalProjects4 = useTemplateRef("personalProjects-4")
 
 const createPdf2 = () => {
 
-  const doc = new jsPDF({
-    unit: 'pt',
-  });
+  const doc = new jsPDF({ unit: 'pt', format: [612, 992], orientation: 'portrait' });
   doc.addFont('https://fonts.gstatic.com/s/lobster/v30/neILzCirqoswsqX9_oWsMqEzSJQ.ttf', 'Lobster', 'normal');
 
   // const elementHandler = {
